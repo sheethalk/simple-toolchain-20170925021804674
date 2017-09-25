@@ -1,0 +1,45 @@
+<div class="container">
+    <section class="row header-container">
+        <div class="col-md-8">
+            <h1>Administration Page</h1>
+        </div>
+    </section>
+    <section class="introductory-text-section">
+        <div class="row">
+            <div class="col-md-8">
+                <p>
+                    This page can be used to alter the technologies used for different areas of Anton. Please use the dropdown menus provided to select your preferred technologies.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section class="tech-choice">
+        <div class="row2">
+            <p>Text-To-Speech: <b>(Currently <span id="currentTTS"></span>)</b></p>
+            <select class="choiceTTS" id="tts_choice">
+                <option value="" disabled selected>Select your option</option>
+                <option value="watson">IBM Watson</option>
+                <option value="bing">Microsoft Bing Speech</option>
+                <option value="polly">Amazon Polly</option>
+            </select>
+            <p>
+                <br>Speech-To-Text: <b>(Currently <span id="currentSTT"></span>)</b></p>
+            <select class="choiceSTT" id="stt_choice">
+                <option value="" disabled selected>Select your option</option>
+                <option value="watson">IBM Watson</option>
+                <option value="bing">Microsoft Bing Speech</option>
+            </select>
+            <p>
+                <br>Natural Language Processing: <b>(Currently <span id="currentNLP"></span>)</b></p>
+            <select class="choiceDialog" id="nlp_choice">
+                <option value="" disabled selected>Select your option</option>
+                <option value="watson">IBM Watson</option>
+                <option value="luis">Microsoft LUIS</option>
+            </select>
+            <br>
+            <br>
+            <button style="background-color:#003b64;color: white;" type="button" ng-click="choice()">Confirm</button>
+            <p id="confirm"></p>
+        </div>
+    </section>
+</div>

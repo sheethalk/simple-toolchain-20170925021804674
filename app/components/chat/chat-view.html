@@ -1,0 +1,82 @@
+
+<style>
+    #header, .top-nav, .top-banner, #footer-con, #footer{
+        display:none;
+    }
+    img{
+        cursor:pointer;
+    }
+</style>
+
+<div class="chat-box-container col-md-12" id="chat-anchor">
+
+    <section class="page-container">
+        <div class="col-md-8">
+            <div id="MToggle" class="col-md-8">
+                <h6>Did you know I can talk? Click this toggle button to activate my voice!</h6>
+                <img src="assets/img/voice-off.svg" id="MToggleClick">
+            </div>
+            <div id="chat-container">
+                <div ng-repeat="m in chatConversation.messages" class="flex-container">
+                    <div id='chatShot' ng-hide="m.imageCards || m.prices || m.tvButtons || m.protectionPlanButtons">
+                        <div class='AiChat' ng-show="m.from == 'agent'"><img id='img-content'
+                                                                             src='assets/img/agentblue.svg'
+                                                                             class='img-circle col-md-2'>
+                            <p class='watson col-md-8'>
+
+                            <div id='videoTag{{$index}}'></div>
+                            </p></div>
+                    </div>
+
+                    <div class="full-width" ng-class="{0: 'no-items', 1: 'has-items'}[hasCarouselItems(m.imageCards)]">
+                        <div ng-repeat="message in m.messages">
+                            <!--<p class="chat-bubble" ng-class="m.from">trustAsHtml({{message}})</p>-->
+
+                            <p class="chat-bubble"  ng-class="m.from"
+                               ng-bind-html="trustAsHtml(message)"> {{message}}
+                            </p>
+                            <div ng-repeat="price in m.prices">
+                                <rzslider rz-slider-model='slider.value' rz-slider-options='slider.options'></rzslider>
+                                <button id="slider-btn" class="input-button" ng-click="sliderClick(slider.value)">Select Price</button>
+                            </div>
+
+                            <div id="tvButtons"ng-repeat="button in m.tvButtons">
+                                <button class="input-button size-button" id="small">Small, up to 32"</button>
+                                <br/>
+                                <button class="input-button  size-button" id="med">Medium, 32" to 50"</button>
+                                <br/>
+                                <button class="input-button size-button" id="large">Large, 50" and bigger</button>
+                            </div>
+
+                            <uib-carousel interval="myInterval"  no-wrap="noWrapSlides" >
+                                <uib-slide ng-repeat="image in m.imageCards" index="$index" ng-click="itemSelected(image.name)">
+                                    <img ng-src="{{image.src}}"  class="carousel-images"  height="600px"  width="100%" />
+                                </uib-slide>
+                            </uib-carousel>
+
+                            <div id="protectionPlanButtons" ng-repeat="button in m.protectionPlanButtons">
+                                <img src="assets/img/optionA.jpg"  class="protection-plan-buttons" name="Option A" ng-click="selectPlan('A')"/>
+                                <br/>
+                                <img src="assets/img/optionB.jpg" class=" protection-plan-buttons" name="Option B" ng-click="selectPlan('B')"/>
+                                <br/>
+                                <img src="assets/img/optionC.jpg" class="protection-plan-buttons" name="Option C" ng-click="selectPlan('C')" />
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+          <p id="typing" ng-show="typing">Anton is Typing...</p>
+                <div class="user-input">
+                    <input type="text" id="chatInput" name="content" class="form-control"
+                           placeholder="Type your response" ng-model="input.text" ng-keyup="keyUp($event.keyCode)">
+                    <img src="assets/img/microphone-icon.png" alt="" id="micBtn" ng-click="micBtnClick()">
+                </div>
+                <button ng-click="sendButtonClick()" id="send-button" type="button" class="btn btn-info" style="background-color: #003b64">Send</button>
+            </div>
+      </section>
+        </div>
+    </section>
+</div>

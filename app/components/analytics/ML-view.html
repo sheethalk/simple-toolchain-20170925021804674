@@ -1,0 +1,98 @@
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        table {
+            table-layout: fixed;
+            width: 100%
+        }
+
+        table td {
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+        }
+    </style>
+</head>
+
+<div class="container">
+    <section class="row conversation-details-container">
+        <div class="col-md-12">
+            <h1>Train NLP</h1>
+        </div>
+    </section>
+
+
+    <section class="table-section">
+        <div class="row">
+            <div class="col-md-12">
+                <table id="matched" class="table table-striped">
+                    <tr>
+                        <th>Phrase</th>
+                        <th>Matched Class</th>
+                        <th>Confidence Percentage</th>
+                        <th>Hit Count</th>
+                        <th>Approve</th>
+                        <th>Manually Match</th>
+                    </tr>
+                    <tr ng-repeat="x in confident | orderBy : '-confidence'">
+                        <td><a href="#/analytics/{{conversation.conversationId}}">{{ x.phrase}}</a></td>
+                        <td>{{ x.class}}</td>
+                        <td>{{ x.confidence}}</td>
+                        <td>{{x.hits}}</td>
+                        <td>
+                            <i class="fa fa-check-circle" ng-click="approveM($index)"></i>
+                        </td>
+                        <td>
+                            <i class="glyphicon glyphicon-share-alt" ng-click="move ($index)"></i>
+                        </td>
+                    </tr>
+
+                </table>
+
+            </div>
+
+        </div>
+    </section>
+    <div class="col-md-12">
+        <h1>Unmatched phrases</h1>
+    </div>
+    <section class="table-section">
+        <div class="row">
+            <div class="col-md-12">
+                <table id="unmatched" class="table table-striped">
+                    <tr>
+                        <th>Phrase</th>
+                        <th>Choose Class</th>
+                        <th>Confidence Percentage</th>
+                        <th>Hit Count</th>
+                        <th>Approve</th>
+                        <th>Delete</th>
+                    </tr>
+
+                    <tr ng-repeat="x in unmatched">
+                        <td><a href="#/analytics/{{conversation.conversationId}}">{{ x.phrase}}</a></td>
+                        <td>
+                            {{ x.class}}
+                            <input id="input" type="text" style="white-space:nowrap;" />
+                        </td>
+                        <td>{{ x.confidence}}</td>
+                        <td>{{x.hits}}</td>
+                        <td>
+                            <i class="fa fa-check-circle" ng-click="approveU($index)" style="align-content:centre;"></i>
+                        </td>
+                        <td>
+                            <i class="fa fa-remove" ng-click="remove ($index)" style="align-content:centre;"></i>
+                        </td>
+                    </tr>
+
+
+                </table>
+                <button style="margin-bottom:16px;background-color:#003b64;color: white;" type="submit" ng-click="train()">Commit training</button>
+            </div>
+
+        </div>
+    </section>
+
+</div>

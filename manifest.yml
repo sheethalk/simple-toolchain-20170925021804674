@@ -1,0 +1,9 @@
+---
+applications:
+- name: hig-converse
+  command: cd server && node server.js
+  path: .
+  memory: 1G
+  instances: 1
+  env:
+    NPM_CONFIG_PRODUCTION: false

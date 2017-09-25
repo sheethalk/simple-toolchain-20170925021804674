@@ -1,0 +1,194 @@
+<div class="container">
+  <ol class="breadcrumb">
+    <li><a href="#/analytics">Analytics</a></li>
+    <li><a href="#/analytics/products">Products</a></li>
+  </ol>
+
+  <section class="row header-container">
+    <div class="col-md-12">
+      <h1>Analytics Dashboard</h1>
+    </div>
+  </section>
+
+  <!-- Date picker -->
+  <div class="datepicker-container">
+    <div class="date-from">
+      From:
+      <datepicker date-format="MMMM d, y" date-set="{{yesterday}}" selector="form-control" class="date-picker">
+        <div class="input-group">
+          <input class="form-control" placeholder="Choose a date" ng-model="dateFrom" ng-change="filter()"/>
+          <span class="input-group-addon" style="cursor: pointer">
+            <i class="glyphicon glyphicon-calendar"></i>
+          </span>
+        </div>
+      </datepicker>
+    </div>
+    <div class="date-too">
+      To:
+      <datepicker date-format="MMMM d, y" date-set="{{today}}"selector="form-control" class="date-picker">
+        <div class="input-group">
+          <input class="form-control" placeholder="Choose a date" ng-model="dateTo" ng-change="filter()"/>
+          <span class="input-group-addon" style="cursor: pointer">
+            <i class="glyphicon glyphicon-calendar"></i>
+          </span>
+        </div>
+      </datepicker>
+    </div>
+  </div>
+
+  <br>
+
+  <p ng-show="isEmpty">No data to display for this time period.</p>
+
+  <section class="charts-section">
+    <div class="row">
+      <h4>Outcome of Conversations between {{dateFrom | date}} and {{dateTo | date}}</h4>
+      <br>
+      <h5><b>Anton's total sales this month:  $95,900</b></h5>
+
+      <!-- Slider -->
+      <div id="owl-example" class="owl-carousel owl-theme">
+        <div id="FirstSlider">
+          <div class="pie-charts">
+
+
+
+            <!-- Main pie charts -->
+            <div class="main-pie-chart">
+              <div ng-show="completed || delegated || abandoned" id="pieChart"></div>
+              <p ng-hide="completed || delegated || abandoned"> No conversation data</p>
+
+
+            </div>
+                  <div id="tvStatistics">
+            <img src="assets/img/short_listed_tvs.png">
+            <img src ="assets/img/most_purchased_tvs.png">
+          </div>
+
+            <!-- Mini pie charts -->
+            <div class="mini-pie-charts" style="display: none">
+              <div ng-show="completed" id="completedPieChart"></div>
+              <p ng-hide="completed">No conversations have been completed</p>
+
+              <div ng-show="delegated" id="delegatedPieChart"></div>
+              <p ng-hide="delegated">No conversations have been delegated</p>
+
+              <div ng-show="abandoned" id="abandonedPieChart"></div>
+              <p ng-hide="abandoned">No conversations have been abandoned</p>
+
+            </div>
+
+          </div>
+
+
+
+
+
+        </div>
+        <div id="SecondSlider">
+
+          <!-- Stacked chart -->
+          <div id="HelpStackChart" style="display: none"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main slider Jquery -->
+  <!-- <script>
+  $(document).ready(function() {
+    $(".owl-carousel").owlCarousel({
+      items : 1
+    })
+  });
+
+  </script> -->
+
+  <section class="table-section table-container">
+    <div class="row">
+      <div class="col-md-12 col-sm-12">
+        <h4>Conversation Log</h4>
+
+
+
+        <a type="button" class="analytics-btn btn btn-info" style="background-color: #003b64" ng-click="extractPhrases()">Train ML</a>
+
+        <button type="button" class="analytics-btn btn btn-info filter-button" style="background-color: #003b64" data-toggle="modal" data-target="#logFilter">Filter</button>
+
+
+        <table class="table table-striped table-hover conversations-table">
+          <tr>
+            <th>Conversation ID</th>
+            <!-- <th>Customer Name</th> -->
+            <th>Date and Time</th>
+            <th>Conversation Status</th>
+            <!-- <th>Status Detail</th> -->
+          </tr>
+          <tr ng-repeat="conversation in filteredConversations | orderBy: 'start_date': reverse | filter:criteriaStatus() | filter: criteriaStatusTopic() | filter:criteriaMatch() ">
+            <td><a href="#/analytics/{{conversation.conversationId}}">{{conversation.conversationId}}</a></td>
+            <!-- <td>{{conversation.profile[0].name}}</td> -->
+            <td>{{conversation.messages[0].timestamp | date:'dd-MM-yyyy HH:mm:ss'}}</td>
+            <td>{{conversation.status == 'Completed: Application Not Progressed' || conversation.status == 'Completed: Application Progressed' ?  'Completed' : conversation.status}}</td>
+            <!-- <td>{{conversation.status == 'Completed: Application Not Progressed' || conversation.status == 'Completed: Application Progressed' ?  conversation.status : topics[conversation.profile[0].topic]}}</td> -->
+          </tr>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filter modal -->
+  <div class="modal fade" id="logFilter" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Conversation Log Filter</h4>
+        </div>
+
+        <!-- Filter Form -->
+        <form ng-submit="filterForm()">
+          <div class="modal-body">
+            <div class="filter-questions">
+              <p class="form-title">Sort (date):</p>
+              <div class="filter-tickbox">
+                <label class="radio-inline"><input type="radio" value="ascending" ng-model="filterArray.formSort">Ascending</label>
+                <label class="radio-inline"><input type="radio" value="descending" ng-model="filterArray.formSort">Descending</label>
+              </div>
+            </div>
+            <div class="filter-questions">
+              <p class="form-title">Customer Name:</p>
+              <select multiple class="form-control" id="FilterCustomerName" ng-model="filterArray.formName">
+                <option ng-repeat="conversation in filteredConversations | unique: 'profile[0].name'" value="{{conversation.profile[0].name}}">{{conversation.profile[0].name}}</option>
+              </select>
+              <p class="form-Help">Note: Hold shift to select multiple names.</p>
+            </div>
+            <div class="filter-questions">
+              <p class="form-title">Conversation Status:</p>
+              <div class="filter-tickbox">
+                <label class="radio-inline"><input type="radio" value="Completed" ng-model="filterArray.formStatus">Completed</label>
+                <label class="radio-inline"><input type="radio" value="Delegated" ng-model="filterArray.formStatus">Delegated</label>
+                <label class="radio-inline"><input type="radio" value="Abandoned" ng-model="filterArray.formStatus">Abandoned</label>
+              </div>
+            </div>
+
+            <div class="filter-questions">
+              <p class="form-title">Conversation Topic:</p>
+              <select multiple class="form-control" ng-model="filterArray.formTopic">
+                <option ng-repeat="conversation in filteredConversations | uniqueTopic: 'conversation.profile[0].topic'" value="{{conversation.profile[0].topic}}">{{topics[conversation.profile[0].topic]}}</option>
+              </select>
+              <p class="form-Help">Note: Hold shift to select multiple topics.</p>
+            </div>
+          </div>
+
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-default" data-dismiss="modal" ng-click="clearFilter()">Clear</button>
+            <button type="submit" class="btn btn-default" data-dismiss="modal" ng-click="filterConversations()">Apply</button>
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>

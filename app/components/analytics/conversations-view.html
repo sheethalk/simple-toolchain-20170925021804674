@@ -1,0 +1,73 @@
+<div class="container">
+  <section class="row conversation-details-container">
+    <div class="col-md-12">
+      <h1>Conversation Details</h1>
+      <p>Conversation ID: <strong>{{conversation.conversationId}}</strong></p>
+      <p>Conversation Outcome: <strong>{{conversation.status}}</strong></p>
+    </div>
+  </section>
+
+  <section class="table-section">
+    <div class="row">
+      <div class="col-md-12">
+        <table class="table table-striped">
+          <tr>
+            <th>Sender</th>
+            <th>Chat Text</th>
+            <th>Date/Time</th>
+          </tr>
+          <tr ng-repeat="message in conversation.messages">
+
+            <div id="chat-test" ng-repeat="" ng-class="{'watson': !message.client, 'customer': message.client }">
+            <td>{{message.client === "true" ? "Customer" : "Anton"}}</td>
+            <td ng-bind-html="trustAsHtml(message.message)">{{message.message}}</td>
+            <td>{{message.timestamp | date:'dd-MM-yyyy HH:mm:ss'}} </td>
+          </tr>
+        </table>
+        <button style="margin-bottom:8px;background-color:#003b64;color: white;"  ng-click="tone()">Analyse Tone</button>
+<div ng-show="toneClicked">
+                    <table class="table table-striped">
+                      <tr><th>Emotional Tone<th><tr>
+                        <tr>
+                            <th>Tone</th>
+                            <th>Score</th>
+                        </tr>
+                        <tr ng-repeat="x in emotion">
+                            <td>{{ x.tone_name}}</a></td>
+                            <td>{{ x.score | number : 2}}</td>
+                        </tr>
+                    </table>
+                    <table class="table table-striped">
+                      <tr><th>Language Tone<th><tr>
+                        <tr>
+                            <th>Tone</th>
+                            <th>Score</th>
+                        </tr>
+                        <tr ng-repeat="x in language">
+                            <td>{{ x.tone_name}}</a></td>
+                            <td>{{ x.score | number : 2}}</td>
+                        </tr>
+                    </table>
+                    <table class="table table-striped">
+                      <tr><th>Social Tone<th><tr>
+                        <tr>
+                            <th>Tone</th>
+                            <th>Score</th>
+                        </tr>
+                        <tr ng-repeat="x in social">
+                            <td>{{ x.tone_name}}</a></td>
+                            <td>{{ x.score | number : 2}}</td>
+                        </tr>
+                    </table>
+</div>
+        <div>
+
+        </div>
+
+      </div>
+
+    </div>
+</div>
+</section>
+
+</div>

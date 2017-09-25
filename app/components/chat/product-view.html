@@ -1,0 +1,45 @@
+<div class="container">
+  <section class="row header-container">
+    <div class="col-md-12">
+      <h2>Your Product</h2>
+      <h3>{{product.productName}}</h3>
+    </div>
+  </section>
+
+  <section class="introductory-text-section">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="panel panel-default">
+          <div class="panel-body product-display">
+            <table class="table">
+              <tr>
+                <td><b>Rate Type</b></td>
+                <td>{{product.rateType | capitalize}}</td>
+              </tr>
+              <tr>
+                <td><b>Introductory Term</b></td>
+                <td>{{product.introductoryTerm}} years</td>
+              </tr>
+              <tr>
+                <td><b>Introductory Rate</b></td>
+                <td>{{product.ratePercent}}%</td>
+              </tr>
+              <tr>
+                <td><b>Arrangement Fee</b></td>
+                <td><span ng-hide="product.fee == 0">&pound;</span>{{product.fee == 0 ? 'None' : product.fee}}</td>
+              </tr>
+              <tr>
+                <td><b>Early Repayment Charges</b></td>
+                <td>{{product.ercPercent}}% to {{product.ercDate |  date:'MM YYYY'}}</td>
+              </tr>
+              <tr>
+                <td><b>Overpayments Allowance<b></td>
+                <td>Up to {{product.overpayments}}% of outstanding balance</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>

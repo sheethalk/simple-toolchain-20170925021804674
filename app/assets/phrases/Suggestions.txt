@@ -1,0 +1,44 @@
+I need more information, LowerPayments, 0.20122118121780486
+I want asap, PayASAP, 0.2627514480469707
+I need more information, LowerPayments, 0.20122118121780486
+because, whyAsk, 0.2752501628222933
+I don't know], WillNotOP, 0.31131521739757645
+END ThE CALL ?, whyAsk, 0.38903273088347934
+I need more information, LowerPayments, 0.20122118121780486
+I would like to asap, FixPayments, 0.27294301568006074
+16 yars, 5Year, 0.12352093708859906
+I need more information, LowerPayments, 0.20122118121780486
+Yeah\, whyAsk, 0.3403439420172189
+I need more information, LowerPayments, 0.20122118121780486
+I want asap, PayASAP, 0.2627514480469707
+Yeah\, whyAsk, 0.3403439420172189
+I need more information, LowerPayments, 0.20122118121780486
+I need more information, LowerPayments, 0.20122118121780486
+I need more information, LowerPayments, 0.20122118121780486
+END ThE CALL ?, whyAsk, 0.38903273088347934
+16 yars, 5Year, 0.12352093708859906
+because, whyAsk, 0.2752501628222933
+I would like to asap, FixPayments, 0.27294301568006074
+I don't know], WillNotOP, 0.31131521739757645
+Yeah\, whyAsk, 0.3403439420172189
+I need more information, LowerPayments, 0.20122118121780486
+I need more information, LowerPayments, 0.20122118121780486
+I want asap, PayASAP, 0.2627514480469707
+I need more information, LowerPayments, 0.20122118121780486
+I need more information, LowerPayments, 0.20122118121780486
+because, whyAsk, 0.2752501628222933
+I don't know], WillNotOP, 0.31131521739757645
+END ThE CALL ?, whyAsk, 0.38903273088347934
+I would like to asap, FixPayments, 0.27294301568006074
+16 yars, 5Year, 0.12352093708859906
+I need more information, LowerPayments, 0.20122118121780486
+I want asap, PayASAP, 0.2627514480469707
+I need more information, LowerPayments, 0.20122118121780486
+because, whyAsk, 0.2752501628222933
+16 yars, 5Year, 0.12352093708859906
+I don't know], WillNotOP, 0.31131521739757645
+I need more information, LowerPayments, 0.20122118121780486
+Yeah\, whyAsk, 0.3403439420172189
+END ThE CALL ?, whyAsk, 0.38903273088347934
+I would like to asap, FixPayments, 0.27294301568006074
+I need more information, LowerPayments, 0.20122118121780486

@@ -1,0 +1,540 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "ColletteLUISGlobal",
+  "desc": "GLobal intents for Collette.",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "goBack"
+    },
+    {
+      "name": "help"
+    },
+    {
+      "name": "no"
+    },
+    {
+      "name": "startAgain"
+    },
+    {
+      "name": "whyAsk"
+    },
+    {
+      "name": "yes"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "Can I please change *",
+      "intent": "goBack",
+      "entities": []
+    },
+    {
+      "text": "Can we go back to the * question",
+      "intent": "goBack",
+      "entities": []
+    },
+    {
+      "text": "Can we go back to the Rate Type question",
+      "intent": "goBack",
+      "entities": []
+    },
+    {
+      "text": "I want to change my answer to overpayments",
+      "intent": "goBack",
+      "entities": []
+    },
+    {
+      "text": "I want to change my mortgage term",
+      "intent": "goBack",
+      "entities": []
+    },
+    {
+      "text": "Let me change my answer to Rate Type",
+      "intent": "goBack",
+      "entities": []
+    },
+    {
+      "text": "Lets go back to the fee question",
+      "intent": "goBack",
+      "entities": []
+    },
+    {
+      "text": "can you give me more details",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "Explain please",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "HELP",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "help me",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "Help me please",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "I do not understand",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "I don't get you",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "I don't know",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "I dont know",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "I don't understand",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "I'm not sure",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "I'm not sure at all",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "I'm unsure",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "I need more info",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "I need more information",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "Please could you explain",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "Why would I want either",
+      "intent": "help",
+      "entities": []
+    },
+    {
+      "text": "absolutely not",
+      "intent": "no",
+      "entities": []
+    },
+    {
+      "text": "by no means",
+      "intent": "no",
+      "entities": []
+    },
+    {
+      "text": "hell no",
+      "intent": "no",
+      "entities": []
+    },
+    {
+      "text": "n",
+      "intent": "no",
+      "entities": []
+    },
+    {
+      "text": "nah",
+      "intent": "no",
+      "entities": []
+    },
+    {
+      "text": "negative",
+      "intent": "no",
+      "entities": []
+    },
+    {
+      "text": "nein",
+      "intent": "no",
+      "entities": []
+    },
+    {
+      "text": "nej",
+      "intent": "no",
+      "entities": []
+    },
+    {
+      "text": "nix",
+      "intent": "no",
+      "entities": []
+    },
+    {
+      "text": "no",
+      "intent": "no",
+      "entities": []
+    },
+    {
+      "text": "non",
+      "intent": "no",
+      "entities": []
+    },
+    {
+      "text": "nope",
+      "intent": "no",
+      "entities": []
+    },
+    {
+      "text": "not by any means",
+      "intent": "no",
+      "entities": []
+    },
+    {
+      "text": "no thanks",
+      "intent": "no",
+      "entities": []
+    },
+    {
+      "text": "no thank you",
+      "intent": "no",
+      "entities": []
+    },
+    {
+      "text": "not really",
+      "intent": "no",
+      "entities": []
+    },
+    {
+      "text": "no way",
+      "intent": "no",
+      "entities": []
+    },
+    {
+      "text": "Can we start again",
+      "intent": "startAgain",
+      "entities": []
+    },
+    {
+      "text": "Go back to the begging please",
+      "intent": "startAgain",
+      "entities": []
+    },
+    {
+      "text": "I need to start again",
+      "intent": "startAgain",
+      "entities": []
+    },
+    {
+      "text": "I want to start again",
+      "intent": "startAgain",
+      "entities": []
+    },
+    {
+      "text": "Lets start again",
+      "intent": "startAgain",
+      "entities": []
+    },
+    {
+      "text": "please can we go back to the start",
+      "intent": "startAgain",
+      "entities": []
+    },
+    {
+      "text": "can I skip these questions",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "can't I skip these questions",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "I don't get why you need to know",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "I don't see why I need to justify myself to you",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "I don't see why I should have to tell you",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "I don't see why I should tell you that",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "I don't understand why I need to keep telling you these things",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "I don't understand why you're asking",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "I don't want to keep answering these questions",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "I just want to continue",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "I know what's best for me",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "I object to all these questions",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "I shouldn't have to justify myself to you",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "is there some way I can skip these questions",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "is this the spanish inquisition",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "I want to skip these questions",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "just let me pick",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "stop asking me",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "that's for me to know and you to find out",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "these questions are annoying",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "what are you asking me for",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "why are you asking",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "why are you asking for my rationale",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "why are you asking me to justify myself",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "why are you interrogating me like this",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "why can't I just pick this answer",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "why do I have to keep answering these questions",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "why do I need to justify myself to you",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "why do you keep asking me",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "why do you keep asking me all these questions",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "why do you need this info",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "why do you need this information",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "why do you need to know",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "why should I tell you",
+      "intent": "whyAsk",
+      "entities": []
+    },
+    {
+      "text": "certainly",
+      "intent": "yes",
+      "entities": []
+    },
+    {
+      "text": "definitely",
+      "intent": "yes",
+      "entities": []
+    },
+    {
+      "text": "Ja",
+      "intent": "yes",
+      "entities": []
+    },
+    {
+      "text": "ok",
+      "intent": "yes",
+      "entities": []
+    },
+    {
+      "text": "Positively",
+      "intent": "yes",
+      "entities": []
+    },
+    {
+      "text": "sure",
+      "intent": "yes",
+      "entities": []
+    },
+    {
+      "text": "Sure!",
+      "intent": "yes",
+      "entities": []
+    },
+    {
+      "text": "y",
+      "intent": "yes",
+      "entities": []
+    },
+    {
+      "text": "Ya",
+      "intent": "yes",
+      "entities": []
+    },
+    {
+      "text": "Yaas",
+      "intent": "yes",
+      "entities": []
+    },
+    {
+      "text": "Yeah",
+      "intent": "yes",
+      "entities": []
+    },
+    {
+      "text": "yeh",
+      "intent": "yes",
+      "entities": []
+    },
+    {
+      "text": "Yeha",
+      "intent": "yes",
+      "entities": []
+    },
+    {
+      "text": "yep",
+      "intent": "yes",
+      "entities": []
+    },
+    {
+      "text": "yes",
+      "intent": "yes",
+      "entities": []
+    },
+    {
+      "text": "Yesh",
+      "intent": "yes",
+      "entities": []
+    },
+    {
+      "text": "yes please",
+      "intent": "yes",
+      "entities": []
+    },
+    {
+      "text": "yes thanks",
+      "intent": "yes",
+      "entities": []
+    },
+    {
+      "text": "yes thank you",
+      "intent": "yes",
+      "entities": []
+    },
+    {
+      "text": "yup",
+      "intent": "yes",
+      "entities": []
+    }
+  ]
+}

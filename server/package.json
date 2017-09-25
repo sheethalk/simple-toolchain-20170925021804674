@@ -1,0 +1,75 @@
+{
+  "name": "Collette",
+  "version": "1.0.0",
+  "description": "HIG demo",
+  "main": "server.js",
+  "repository": "https://bitbucket.org/ai_na_delivery/higconverse/branch/master",
+  "config": {
+    "port": "3000",
+    "speechToText": {
+      "username": "1b836b32-972d-44d8-91c4-797b60ceafa5",
+      "password": "2arJhoyXwtUA",
+      "version": "v1",
+      "url": "https://stream.watsonplatform.net/speech-to-text/api",
+      "customization_id": "ca84c450-c089-11e6-9657-e53f14d32a55"
+    },
+    "textToSpeech": {
+      "username": "df47dfa3-72f3-4135-80e2-7f7cc3717e1a",
+      "password": "SODYyvrkDApe",
+      "version": "v1",
+      "url": "https://stream.watsonplatform.net/text-to-speech/api"
+    },
+    "conversation": {
+      "url": "https://gateway.watsonplatform.net/conversation/api",
+      "password": "q3hPwefcuZNo",
+      "username": "a0f3ebe7-4a08-46ac-8449-a4f6aa8fd958",
+      "version": "v1",
+      "version_date": "2016-09-20"
+    },
+    "NLC": {
+      "url": "https://gateway.watsonplatform.net/natural-language-classifier/api",
+      "username": "a116ed35-8349-4eb1-9a96-94dd4c0e372c",
+      "password": "ilAXnBsL7uS4",
+      "classifier_id": "90e7b4x199-nlc-49985"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jake Collins, Alexander Watling, Omar Abbas, Rico Forrester, Carlous Fahmi",
+  "license": "ISC",
+  "dependencies": {
+    "angular-google-chart": "^0.1.0",
+    "angular-route": "^1.4.5",
+    "angular-ui-bootstrap": "^2.5.0",
+    "async": "^2.0.1",
+    "aws-sdk": "^2.9.0",
+    "axios": "^0.16.2",
+    "basic-auth": "^1.0.4",
+    "body-parser": "^1.15.2",
+    "cron": "^1.1.0",
+    "csv-write-stream": "^2.0.0",
+    "debug": "^2.2.0",
+    "depd": "^1.1.0",
+    "dotenv-extended": "^2.0.1",
+    "ee-first": "^1.1.1",
+    "express": "^4.14.0",
+    "file-system": "^2.2.1",
+    "form-data": "^1.0.0",
+    "https": "^1.0.0",
+    "lodash": "^4.15.0",
+    "method-override": "^2.3.6",
+    "moment": "^2.14.1",
+    "moment-timezone": "^0.5.5",
+    "mongodb": "^2.2.6",
+    "mongoose": "^4.5.9",
+    "morgan": "^1.7.0",
+    "ng-table": "^3.0.1",
+    "on-finished": "^2.3.0",
+    "on-headers": "^1.0.1",
+    "os": "^0.1.1",
+    "request": "^2.79.0",
+    "watson-developer-cloud": "^2.1.2",
+    "yoti-node-sdk": "1.0.2"
+  }
+}

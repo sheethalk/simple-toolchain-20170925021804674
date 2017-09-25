@@ -1,0 +1,4781 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "ColletteLUISOther",
+  "desc": "Collette LUIS model for the intents which aren't (mostly) numeric or global.",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "AvoidFee"
+    },
+    {
+      "name": "AvoidInterestOnFee"
+    },
+    {
+      "name": "AvoidOPCharges"
+    },
+    {
+      "name": "BetterRate"
+    },
+    {
+      "name": "CanAfford"
+    },
+    {
+      "name": "CanAffordFee"
+    },
+    {
+      "name": "CanAffordFuturePaymentRise"
+    },
+    {
+      "name": "CantAffordHigherPayments"
+    },
+    {
+      "name": "CantAffordNow"
+    },
+    {
+      "name": "Compromise"
+    },
+    {
+      "name": "ExtraIncome"
+    },
+    {
+      "name": "FixLong"
+    },
+    {
+      "name": "FixPayments"
+    },
+    {
+      "name": "IncreasedRates"
+    },
+    {
+      "name": "LimitedBudget"
+    },
+    {
+      "name": "LongTermSavings"
+    },
+    {
+      "name": "LowerPayments"
+    },
+    {
+      "name": "MaxOPLimit"
+    },
+    {
+      "name": "NoBudgetForOP"
+    },
+    {
+      "name": "NoExtraBorrowing"
+    },
+    {
+      "name": "NoFeeAvoidInterest"
+    },
+    {
+      "name": "NoFeeLater"
+    },
+    {
+      "name": "NoIncreasedRates"
+    },
+    {
+      "name": "NoTieDown"
+    },
+    {
+      "name": "NotWorthPaying"
+    },
+    {
+      "name": "OPLessThanFivePercent"
+    },
+    {
+      "name": "PayASAP"
+    },
+    {
+      "name": "PayLessInterest"
+    },
+    {
+      "name": "PayLessOverall"
+    },
+    {
+      "name": "PenaltiesNoProblem"
+    },
+    {
+      "name": "PlanningToOP"
+    },
+    {
+      "name": "PotentialMove"
+    },
+    {
+      "name": "PutMoneyElsewhere"
+    },
+    {
+      "name": "RetirementDate"
+    },
+    {
+      "name": "ShortTermSavings"
+    },
+    {
+      "name": "StableIncome"
+    },
+    {
+      "name": "VarPayLess"
+    },
+    {
+      "name": "WillNotOP"
+    }
+  ],
+  "entities": [
+    {
+        "name": "question"
+    },
+    {
+        "name": "term"
+    },
+    {
+        "name": "test"
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "As long as I don't have to pay the fee I can pay more interest",
+      "intent": "AvoidFee",
+      "entities": []
+    },
+    {
+      "text": "Can I pay more interest and avoid the fee",
+      "intent": "AvoidFee",
+      "entities": []
+    },
+    {
+      "text": "I don't mind a higher interest rate if I can avoid the fee",
+      "intent": "AvoidFee",
+      "entities": []
+    },
+    {
+      "text": "I don't mind incurring more interest as long as I can avoid the fee",
+      "intent": "AvoidFee",
+      "entities": []
+    },
+    {
+      "text": "I don't mind paying more interest but I don't want to pay fees",
+      "intent": "AvoidFee",
+      "entities": []
+    },
+    {
+      "text": "I don't mind paying more interest but I want to avoid the fee",
+      "intent": "AvoidFee",
+      "entities": []
+    },
+    {
+      "text": "I don't want to pay the fee but I don't mind having a bit more interest",
+      "intent": "AvoidFee",
+      "entities": []
+    },
+    {
+      "text": "I'd prefer having a higher interest rate if it means I can avoid paying a fee",
+      "intent": "AvoidFee",
+      "entities": []
+    },
+    {
+      "text": "I'd prefer to pay more interest and avoid the fee",
+      "intent": "AvoidFee",
+      "entities": []
+    },
+    {
+      "text": "I'd rather have a higher interest rate and avoid the fee",
+      "intent": "AvoidFee",
+      "entities": []
+    },
+    {
+      "text": "I'm happy to pay more interest as long as I can avoid the fee",
+      "intent": "AvoidFee",
+      "entities": []
+    },
+    {
+      "text": "I'm prepared to pay more money in interest as long as I can avoid the fee",
+      "intent": "AvoidFee",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid the fee even if it means paying more interest",
+      "intent": "AvoidFee",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid the fee I don't mind paying more interest",
+      "intent": "AvoidFee",
+      "entities": []
+    },
+    {
+      "text": "I can afford to pay it now so I'll avoid paying interest",
+      "intent": "AvoidInterestOnFee",
+      "entities": []
+    },
+    {
+      "text": "I don't want to add it to the mortgage and incur interest",
+      "intent": "AvoidInterestOnFee",
+      "entities": []
+    },
+    {
+      "text": "I don't want to incur any extra interest",
+      "intent": "AvoidInterestOnFee",
+      "entities": []
+    },
+    {
+      "text": "I don't want to pay interest on the fee",
+      "intent": "AvoidInterestOnFee",
+      "entities": []
+    },
+    {
+      "text": "If I pay it now it means I won't incur interest",
+      "intent": "AvoidInterestOnFee",
+      "entities": []
+    },
+    {
+      "text": "I'm not paying any extra interest",
+      "intent": "AvoidInterestOnFee",
+      "entities": []
+    },
+    {
+      "text": "I'm not paying interest on it",
+      "intent": "AvoidInterestOnFee",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid paying extra interest",
+      "intent": "AvoidInterestOnFee",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid paying interest on it",
+      "intent": "AvoidInterestOnFee",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid paying interest on the fee",
+      "intent": "AvoidInterestOnFee",
+      "entities": []
+    },
+    {
+      "text": "No interest on fee",
+      "intent": "AvoidInterestOnFee",
+      "entities": []
+    },
+    {
+      "text": "5% overpayments is too limiting  I'd rather have the option to pay a higher amount without being charged",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "avoid charges if I over pay",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "don't want to be charged for making bigger overpayments",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "don't want to be charged for making bigger payments",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "don't want to be charged for making more overpayments",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "don't want to be charged for making more payments",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "don't want to be penalised for making bigger overpayments",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "don't want to be penalised for making bigger payments",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "don't want to be penalised for making more overpayments",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "don't want to be penalised for making more payments",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I'd like the flexibility to over pay as much as possible without penalty",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I'd like the flexibility to overpay as much as possible without penalty",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be charged for making larger overpayments",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be charged for making larger over payments",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be charged for overpaying",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I don\ufffd\ufffd\ufffdt want to be charged if I can repay more",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be charged if I make larger overpayments",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be penalised for making larger overpayments",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be penalised for making larger over payments",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "It would be good to have the option to pay over 5% without worrying about charges",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want the option to overpay without facing a penalty",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want the option to overpay without facing charges",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want the option to overpay without facing penalties",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want the option to overpay without incurring a penalty",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want the option to overpay without incurring charges",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want the option to overpay without incurring penalties",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want the option to overpay without paying a penalty",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want the option to overpay without paying charges",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want the option to overpay without paying penalties",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want the option to pay more than 5% without paying charges",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid being penalised for making larger overpayments",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid charges because I might want to make larger overpayments",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want to be able to make substantial overpayments without charges",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want to be able to over pay as much as possible without being charged",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want to be able to overpay as much as possible without being charged",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want to be able to over pay as much as possible without charge",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want to be able to overpay as much as possible without charge",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want to be able to over pay as much as possible without penalty",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want to be able to overpay as much as possible without penalty",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want to be able to pay large ammounts of the mortgage without being charged",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want to be able to pay off a lump sum without paying ERC",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want to be sure I can make larger overpayments without being charged",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want to make penalty free overpayments",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want to make penalty free over payments",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "I want to make sure I can make large overpayments without being charged",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "stop charges if I pay more",
+      "intent": "AvoidOPCharges",
+      "entities": []
+    },
+    {
+      "text": "Better interest rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "Better rate by paying a fee",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "Cheaper rate if I pay a fee",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I'd be happy to pay a fee if it meant I paid less interest",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I'd be happy to pay a fee if it meant I paid less money in interest",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I'd be happy to pay a fee if it meant paying less money in interest",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I'd be prepared to pay a fee if it meant paying less money in interest",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I'd like a better rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I'd like a lower interest rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I don't mind paying the fee so I get a better rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I don't want to pay a higher interest rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I'd prefer a better rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I'd prefer a lower interest rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "If I'd get a better deal then ok I don't mind paying a fee",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "If it means I'll get a better rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "If it means I'll get a lower interest rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "If it would result in a better rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "If it would result in a lower interest rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I need to keep the rate down",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "it's worth paying a higher fee in order to qualify for a low interest rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I want a better deal so I don't mind paying the fee",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I want a better rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I want a lower interest rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I want a lower interest rate so I'll pay the fee",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I want low monthly payments so I can pay the fee",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I want the best deal",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I want the best deal so I don't mind paying fees",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I want the best rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I want the best rate possible so I don't mind paying the fee",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I want the keep the rate low",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I want the lowest rate so I'm happy to pay a fee to get this",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I want to keep the rate as low as possible",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I want to qualify for a better interest rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I want to qualify for a better rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I want to qualify for a lower interest rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I want to qualify for a lower rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I want to qualify for a low interest rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I want to qualify for a low rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I want to secure the mortgage rate so I am happy to pay a fee",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I would be prepared to pay a fee if it meant paying less interest",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I would be prepared to pay a fee if it meant paying less money in interest",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I would like to save money on the interest rate  so I will pay the fee",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I wouldn't mind paying a fee if it meant I paid less money in interest",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I wouldn't mind paying a fee if it meant paying less interest",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "I wouldn't mind paying a fee if it meant paying less money in interest",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "Pay a fee to get a better rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "Paying a fee will get me the best rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "Paying a fee will secure a better rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "Paying fee ensure I get a better deal",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "Paying fee means rate is better",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "The overall cost will be less because the rate will be better",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "The overall cost will be lower because the rate will be better",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "The total cost will be less because the rate will be better",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "The total cost will be lower because the rate will be better",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "Want to get a better rate",
+      "intent": "BetterRate",
+      "entities": []
+    },
+    {
+      "text": "Budgeted for this",
+      "intent": "CanAfford",
+      "entities": []
+    },
+    {
+      "text": "Expected this in my budget",
+      "intent": "CanAfford",
+      "entities": []
+    },
+    {
+      "text": "I can afford it",
+      "intent": "CanAfford",
+      "entities": []
+    },
+    {
+      "text": "I can afford to do that",
+      "intent": "CanAfford",
+      "entities": []
+    },
+    {
+      "text": "I have a big enough budget",
+      "intent": "CanAfford",
+      "entities": []
+    },
+    {
+      "text": "I have enough money",
+      "intent": "CanAfford",
+      "entities": []
+    },
+    {
+      "text": "I have enough money to cover this",
+      "intent": "CanAfford",
+      "entities": []
+    },
+    {
+      "text": "I have taken this into account in my budget",
+      "intent": "CanAfford",
+      "entities": []
+    },
+    {
+      "text": "I took this into consideration when planning my budget",
+      "intent": "CanAfford",
+      "entities": []
+    },
+    {
+      "text": "It's within my budget",
+      "intent": "CanAfford",
+      "entities": []
+    },
+    {
+      "text": "I've factored this into my budget",
+      "intent": "CanAfford",
+      "entities": []
+    },
+    {
+      "text": "I've got enough cash",
+      "intent": "CanAfford",
+      "entities": []
+    },
+    {
+      "text": "I've taken this into account in my planning already",
+      "intent": "CanAfford",
+      "entities": []
+    },
+    {
+      "text": "My budget can stretch to this",
+      "intent": "CanAfford",
+      "entities": []
+    },
+    {
+      "text": "Budget ok to pay now",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I already planned to pay a fee",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I can afford paying up front",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I can afford to pay it now",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I can afford to pay it upfront",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I can afford to pay it up front",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I can afford to pay now",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I can afford to pay the fee now and save later",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I can afford to pay up front",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I expected to pay a fee so I've kept some budget aside for this",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I have budgeted so I can pay it now",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I have budgeted to pay up front",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I have enough money to pay now",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I have enough savings to pay now",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I have enough savings to pay the fee now",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I have plenty of savings",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I have the money to pay the fee",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I'm saving some money for this",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I've budgeted for paying a fee",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I've made sure I have enough savings to pay the fee",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I've made sure I have enough savings to pay the fee up front so I can avoid paying more interest",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I've planned to pay a fee",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I've set aside some budget to put towards the fee",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I've set aside some money to budget for the fee",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "I've set aside some spare money for the fee",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "My budget can withstand paying it now",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "My budget can withstand paying it up front",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "My budget has factored in paying fees",
+      "intent": "CanAffordFee",
+      "entities": []
+    },
+    {
+      "text": "can afford payment rise",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I can afford an increase in my payments",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I can afford the monthly payments going up",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I can afford the potential repayment increase",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I can afford the repayments if interest rates go up",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I can afford the repayments if interest rates rise",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I can afford the repayments if rates change",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I can afford the repayments if rates go up",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I can afford the repayments if rates rise",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I could afford the repayments if interest rates change",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I could afford the repayments if interest rates go up",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I could afford the repayments if interest rates rise",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I could afford the repayments if rates change",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I could afford the repayments if rates go up",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I could afford the repayments if rates rise",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I'd like to start on the lowest rate  knowing it might rise soon",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I don't mind taking a risk if I can start with lower payments",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I'd prefer to keep my costs down at first but if rates rise I'll still be ok",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I'd prefer to keep my costs down initially but I could afford a higher rate in future",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I'd prefer to keep my costs down initially but I could afford an increase in payments",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I'd prefer to keep my costs down initially but I could afford higher payments in future",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I'd prefer to keep my costs down initially but I could afford it if rates go up",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I'd prefer to keep my costs down initially but I could afford it if the base rate increases",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I'd prefer to keep my costs down initially but I could still afford the payments if the interest rate goes up",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I'd rather keep my payments low for now but I can afford the repayments if interest rates go up",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I'd rather keep my payments low for now but I can afford the repayments if interest rates rise",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I'd rather keep my payments low for now but I can afford the repayments if rates change",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I'd rather keep my payments low for now but I can afford the repayments if rates go up",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I'd rather keep my payments low for now but I can afford the repayments if rates rise",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I'd rather keep my payments low for now but I could afford the repayments if interest rates change",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I'd rather keep my payments low for now but I could afford the repayments if interest rates go up",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I'd rather keep my payments low for now but I could afford the repayments if interest rates rise",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I'd rather keep my payments low for now but I could afford the repayments if rates change",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I'd rather keep my payments low for now but I could afford the repayments if rates go up",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I'd rather keep my payments low for now but I could afford the repayments if rates rise",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I have a large enough budget to cope if rates rise",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I'm comfortable with the uncertainty as my budget is big enough to afford higher payments",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I'm confident my budget will increase at the same rate as interest rates",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to keep my initial costs down as I am certain my income will increase in the near future",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on a lower rate but I could afford a higher rate in future",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on a lower rate but I could afford an increase in payments",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on a lower rate but I could afford higher payments in future",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on a lower rate but I could afford it if rates go up",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on a lower rate but I could afford it if the base rate increases",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on a lower rate but I could still afford the payments if the interest rate goes up",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on a low rate but I can afford a higher rate if it goes up",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on a low rate but I can afford a higher rate if it increases in future",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on a low rate but I can afford the repayments if interest rates go up",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on a low rate but I can afford the repayments if interest rates rise",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on a low rate but I can afford the repayments if rates change",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on a low rate but I can afford the repayments if rates go up",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on a low rate but I can afford the repayments if rates rise",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on a low rate but I could afford the repayments if interest rates change",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on a low rate but I could afford the repayments if interest rates go up",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on a low rate but I could afford the repayments if interest rates rise",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on a low rate but I could afford the repayments if rates change",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on a low rate but I could afford the repayments if rates go up",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on a low rate but I could afford the repayments if rates rise",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on lower payments but I can afford if they go up",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on the lowest rate as my income is due to increase so I'll be able to afford higher payments",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on the lowest rate as my income is due to increase soon",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I want to start on the lowest rate as my income will rise in future",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "I would rather start on a lower interest rate  knowing it might go up in the future",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "my budget can cope if my payments go up",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "My budget can withstand an increase in payments",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "My budget is big enough to cope with an increased base rate",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "My budget is big enough to cope with an increased interest rate",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "My budget is big enough to cope with an interest rate rise",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "My budget is big enough to handle an increased base rate",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "My budget is big enough to handle an increased interest rate",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "My budget is big enough to handle an interest rate rise",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "My budget is flexible enough to handle an increased base rate",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "My budget is flexible enough to handle an increased interest rate",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "My budget is flexible enough to handle an interest rate rise",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "my budget is ok even if payments go up",
+      "intent": "CanAffordFuturePaymentRise",
+      "entities": []
+    },
+    {
+      "text": "Can't afford to pay any more",
+      "intent": "CantAffordHigherPayments",
+      "entities": []
+    },
+    {
+      "text": "I can't afford higher payments",
+      "intent": "CantAffordHigherPayments",
+      "entities": []
+    },
+    {
+      "text": "I can't afford paying more monthly",
+      "intent": "CantAffordHigherPayments",
+      "entities": []
+    },
+    {
+      "text": "I can't afford paying more per month",
+      "intent": "CantAffordHigherPayments",
+      "entities": []
+    },
+    {
+      "text": "I can't afford to higher repayments",
+      "intent": "CantAffordHigherPayments",
+      "entities": []
+    },
+    {
+      "text": "I can't pay more per month",
+      "intent": "CantAffordHigherPayments",
+      "entities": []
+    },
+    {
+      "text": "I'm not able to pay any more",
+      "intent": "CantAffordHigherPayments",
+      "entities": []
+    },
+    {
+      "text": "It's the maximum I can pay per month",
+      "intent": "CantAffordHigherPayments",
+      "entities": []
+    },
+    {
+      "text": "My budget is too tight",
+      "intent": "CantAffordHigherPayments",
+      "entities": []
+    },
+    {
+      "text": "My budget won't cover higher repayments",
+      "intent": "CantAffordHigherPayments",
+      "entities": []
+    },
+    {
+      "text": "That's what my budget allows",
+      "intent": "CantAffordHigherPayments",
+      "entities": []
+    },
+    {
+      "text": "This is the maximum I can pay monthly",
+      "intent": "CantAffordHigherPayments",
+      "entities": []
+    },
+    {
+      "text": "All my budget it going towards my deposit",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "All my savings are going into my deposit",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "All my savings are going towards my deposit",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "All my savings have been used so add the fee on",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I can't afford to pay the fee now  I've used all my savings",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I can't afford to pay the fee upfront",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I can't afford to pay the fee up front",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I cant afford to pay upfront",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I cant afford to pay up front",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I don't have enough money to pay now",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I don\ufffd\ufffd\ufffdt have enough money to pay now",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I don't have enough savings right now",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I don't have enough savings to pay up front",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I don't have enough spare cash to pay it right now",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I have maximised my savings and deposit already so will need to add the fee to the loan",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I'm already at the top end of my budget",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I'm already maxing out my savings for the deposit",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I'm already spending all my savings",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I'm already spending all my savings on the deposit",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I'm already spending all my savings on the deposit so I want to add the fee on",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I'm already spending all my savings on the deposit so I want to add the fee on even if this means paying more interest",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I'm already stretching my budget for the deposit",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I maxed out my budget and can't afford to pay the fee now",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I'm using all my savings for my deposit",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I realise I'll pay interest on it but I can't afford to pay it now",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I've allocated all my budget for the deposit",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I won't have enough savings",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I won't have enough savings after paying the deposit",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I won't have enough savings after paying the deposit so I want to add the fee on",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I won't have enough savings after paying the deposit so I want to add the fee on even if this means paying more interest",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I won't have enough savings so I want to add the fee on",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I won't have enough savings so I want to add the fee on even if this means paying more interest",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I won't have enough spare cash after paying the deposit",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I won't have enough spare cash after paying the deposit so I want to add the fee on",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I won't have enough spare cash after paying the deposit so I want to add the fee on even if this means paying more interest",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "I won't have enough spare money to pay right now",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "My budget is all going on the deposit",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "My budget is already stretched to its limit so I don't want to pay any more",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "My budget won't cover the fee as well as my deposit",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "My deposit is using all my savings",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "Not enough money to pay upfront",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "Not enough money to pay up front",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "Not enough savings to pay upfront",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "Not enough savings to pay up front",
+      "intent": "CantAffordNow",
+      "entities": []
+    },
+    {
+      "text": "2 years is too short and 5 years it too long. I may look to change my product after 3 years",
+      "intent": "Compromise",
+      "entities": []
+    },
+    {
+      "text": "I'd like to compromise between having some stability without having too much risk of early repayment charges",
+      "intent": "Compromise",
+      "entities": []
+    },
+    {
+      "text": "I want a balance between stability and not being tied in too long",
+      "intent": "Compromise",
+      "entities": []
+    },
+    {
+      "text": "I want a balance of stability but not being tied in too long",
+      "intent": "Compromise",
+      "entities": []
+    },
+    {
+      "text": "I want a compromise between stability and avoiding penalties",
+      "intent": "Compromise",
+      "entities": []
+    },
+    {
+      "text": "I want a mix of stability and reasonable payments",
+      "intent": "Compromise",
+      "entities": []
+    },
+    {
+      "text": "I want a mix of stabilty and low payments",
+      "intent": "Compromise",
+      "entities": []
+    },
+    {
+      "text": "I want to find a balance between fixing it for too long and for too short a time",
+      "intent": "Compromise",
+      "entities": []
+    },
+    {
+      "text": "I want to find the balance between fixing the amount and having affordable payments",
+      "intent": "Compromise",
+      "entities": []
+    },
+    {
+      "text": "I want to find the balance between stability without being stuck with a deal for too long",
+      "intent": "Compromise",
+      "entities": []
+    },
+    {
+      "text": "I want to find the balance between stability without being stuck with a product for too long",
+      "intent": "Compromise",
+      "entities": []
+    },
+    {
+      "text": "Three years is a good mix of stability and low payments",
+      "intent": "Compromise",
+      "entities": []
+    },
+    {
+      "text": "10% would give me more flexibility if I end up having some spare cash",
+      "intent": "ExtraIncome",
+      "entities": []
+    },
+    {
+      "text": "expecting inheritance",
+      "intent": "ExtraIncome",
+      "entities": []
+    },
+    {
+      "text": "expecting more money in future",
+      "intent": "ExtraIncome",
+      "entities": []
+    },
+    {
+      "text": "I could get bonuses at my job so I might have the ability to overpay more than 5%",
+      "intent": "ExtraIncome",
+      "entities": []
+    },
+    {
+      "text": "I expect I'll have spare funds to make overpayments",
+      "intent": "ExtraIncome",
+      "entities": []
+    },
+    {
+      "text": "If I get a windfall I want to use it for overpayments",
+      "intent": "ExtraIncome",
+      "entities": []
+    },
+    {
+      "text": "I'm expecting a bonus",
+      "intent": "ExtraIncome",
+      "entities": []
+    },
+    {
+      "text": "I'm expecting extra money",
+      "intent": "ExtraIncome",
+      "entities": []
+    },
+    {
+      "text": "I might want to make bigger overpayments",
+      "intent": "ExtraIncome",
+      "entities": []
+    },
+    {
+      "text": "I sometimes get bonuses at work so it would be good to make some overpayments",
+      "intent": "ExtraIncome",
+      "entities": []
+    },
+    {
+      "text": "I want the option to overpay if I have the spare cash",
+      "intent": "ExtraIncome",
+      "entities": []
+    },
+    {
+      "text": "might get a bonus",
+      "intent": "ExtraIncome",
+      "entities": []
+    },
+    {
+      "text": "might get a windfall",
+      "intent": "ExtraIncome",
+      "entities": []
+    },
+    {
+      "text": "My job offers me the chance to earn large bonuses  so I would like to be allowed to repay chunks of my mortgage without penalty",
+      "intent": "ExtraIncome",
+      "entities": []
+    },
+    {
+      "text": "fix rate for as long as I can",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "I'd like to stick to this rate for the maximum amount of time",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "I'm expecting to stay long term so I want to ensure consistency for as long as possible",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "I'm expecting to stay long term so I want to fix my payments for as long as possible",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "I'm expecting to stay long term so I want to fix the rate for as long as possible",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "I'm expecting to stay long term so I want to keep my payments stable for as long as possible",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "I'm happy to fix my deal for a long time",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "I'm happy to lock in my payments for a long time",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "I want certainty  for as long as possible",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "I want my payments to be predictable  for as long as possible",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "I want my payments to be stable for as long as they can",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "I want predictable payments for as long as possible",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "I want stability for as long as I can",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "I want stability  for as long as possible",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "I want to be able to keep my budget  for as long as possible",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "I want to fix my budget  for as long as possible",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "I want to fix the rate  for as long as possible",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "I want to fix the rate for as long as possible",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "I want to have stable payments for as long as possible",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "I want to keep this rate for as long as possible",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "I want to lock in the rate for as long as possible",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "Keeping my payments stable for as long as possible is what I want",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "Keeping my term locked in for as long as possible is what I want",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "keep rate as long as possible",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "lock down payments for as long as I can",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "lock down rate for as long as possible",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "lock in deal for as long as possible",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "stable payments for as long as possible",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "The base rate is surely going to rise so I'd like to fix my price for as long as possible",
+      "intent": "FixLong",
+      "entities": []
+    },
+    {
+      "text": "consistent payments",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I'd like my cost to be constant",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I'd like my monthly payment to be the same",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I'd like to fix the amount I pay each month",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I'd like to have the confidence that my payments will not change",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I'd like to have the confidence that my payments will stay the same",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I'd like to keep my payments consistent",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I'd like to pay the same amount every month",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I don't want my monthly payments to change",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I'd prefer to have the confidence that my payments will not change",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I'd prefer to have the confidence that my payments will stay the same",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I'd prefer to keep my payments consistent",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I'd prefer to pay the same amount every month",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I like my costs to be predictable",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I like my payments to be predictable",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I like stability of payments",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I like the payments to be the same every month",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I like to be able to budget each month",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I like to know how much I'm going to pay each month",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I like to plan my monthly budget",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I'll pay the same amount each month",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I'm keen to plan my budget",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I need the repayment to be the same each month",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I want certainty about how much I need to pay each month",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I want my monthly payments to be predictable",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I want my payments to be fixed every month",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I want my payments to be the same each month",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I want stability",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I want stability and to know how much I'm paying each month",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I want stability of payments",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I want to be sure how much I'll be paying every month",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I want to have the confidence that my payments will not change",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I want to have the confidence that my payments will stay the same",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I want to keep my payments consistent",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I want to know what I'll be paying",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I want to lock in my monthly payments",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I want to lock in my payment",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I want to pay a consistent figure",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I want to pay the same amount each month",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I want to pay the same amount every month",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "I want to stick to the same monthly repayments",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "keep payments the same",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "Knowing how much I need to pay each month helps me budget",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "know what I'll pay monthly",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "make sure payments are always the same",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "make sure payments are consistent",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "pay same amount monthly",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "Pay the same every month",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "repayments the same every month",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "repayments the same monthly",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "same monthly cost",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "same payments",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "stable payments",
+      "intent": "FixPayments",
+      "entities": []
+    },
+    {
+      "text": "Base rate can't get any lower so I want to lock in this rate before it rises",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase hence I would prefer to fix the interest",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase hence I would prefer to fix the interest now",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase hence I would prefer to fix the interest rate",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase hence I would prefer to fix the interest rate now",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase hence I would prefer to fix the rate",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase hence I would prefer to fix the rate now",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase hence I would prefer to lock into this interest rate now",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase hence I would prefer to lock the interest",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase hence I would prefer to lock the interest now",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase hence I would prefer to lock the interest rate",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase hence I would prefer to lock the interest rate now",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase hence I would prefer to lock the rate",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase hence I would prefer to lock the rate now",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase so I want to fix the interest",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase so I want to fix the interest now",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase so I want to fix the interest rate",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase so I want to fix the interest rate now",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase so I want to fix the rate",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase so I want to fix the rate now",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase so I want to lock the interest",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase so I want to lock the interest now",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase so I want to lock the interest rate",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase so I want to lock the interest rate now",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase so I would like to lock into this interest",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I feel rates will increase so I would like to lock into this interest now",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I think interest rates are going to go up soon",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I think interest rates will go up so I want to lock into this rate now",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I think interest rates will rise soon so I want to lock this rate in",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I think rates are only going to go up so I want to fix my rate now",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I think the Base Rate might rise soon",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I want to be protected against a base rate rise",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I want to be protected against a base rate rise in future",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I want to be protected if rates rise",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I want to be sure my payments won't increase if rates go up",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I would rather start on a higher interest rate  knowing I am protected against a Base Rate increase in the future",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "Rates can only get higher so I want to lock in my payment now",
+      "intent": "IncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I have a limited budget so I'd like to have the confidence that my payments will not change",
+      "intent": "LimitedBudget",
+      "entities": []
+    },
+    {
+      "text": "I have a limited budget so I'd like to have the confidence that my payments will stay the same",
+      "intent": "LimitedBudget",
+      "entities": []
+    },
+    {
+      "text": "I have a limited budget so I'd like to keep my payments consistent",
+      "intent": "LimitedBudget",
+      "entities": []
+    },
+    {
+      "text": "I have a limited budget so I'd like to pay the same amount every month",
+      "intent": "LimitedBudget",
+      "entities": []
+    },
+    {
+      "text": "I have a limited budget so I'd prefer to have the confidence that my payments will not change",
+      "intent": "LimitedBudget",
+      "entities": []
+    },
+    {
+      "text": "I have a limited budget so I'd prefer to have the confidence that my payments will stay the same",
+      "intent": "LimitedBudget",
+      "entities": []
+    },
+    {
+      "text": "I have a limited budget so I'd prefer to keep my payments consistent",
+      "intent": "LimitedBudget",
+      "entities": []
+    },
+    {
+      "text": "I have a limited budget so I'd prefer to pay the same amount every month",
+      "intent": "LimitedBudget",
+      "entities": []
+    },
+    {
+      "text": "I have a limited budget so I want to be protected against a base rate rise in future",
+      "intent": "LimitedBudget",
+      "entities": []
+    },
+    {
+      "text": "I have a limited budget so I want to be protected if rates rise",
+      "intent": "LimitedBudget",
+      "entities": []
+    },
+    {
+      "text": "I have a limited budget so I want to be sure my payments won't increase if rates go up",
+      "intent": "LimitedBudget",
+      "entities": []
+    },
+    {
+      "text": "I have a limited budget so I want to have the confidence that my payments will not change",
+      "intent": "LimitedBudget",
+      "entities": []
+    },
+    {
+      "text": "I have a limited budget so I want to have the confidence that my payments will stay the same",
+      "intent": "LimitedBudget",
+      "entities": []
+    },
+    {
+      "text": "I have a limited budget so I want to keep my payments consistent",
+      "intent": "LimitedBudget",
+      "entities": []
+    },
+    {
+      "text": "I have a limited budget so I want to pay the same amount every month",
+      "intent": "LimitedBudget",
+      "entities": []
+    },
+    {
+      "text": "I'd like to save money in the long run",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "I'd prefer to save money in the long run",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "I'd rather save money in the long run",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "If I pay the fee now I'll save money in the long run",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "If it means I'll get to save money in the long run",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "If it would result in saving money in the long run",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "I need to save money over the life of the mortgage",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "In the long run paying the fee saves me more money",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "Investing in a fee will save me money later on",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "I think this will save me money overall",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "It will save me money in the long run to pay the fee upfront",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "I want to save money in the long run",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "I would like to save money in the long run",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "Paying a fee will save me money in the long run if I get a lower interest rate",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "Paying a fee will save money overall",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "Paying now will save me money in the future",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "Paying the fees now will save me money later on",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "Paying the fee will save me money afterwards",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "Paying the fee will save me money in the long run",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "Save money in long term",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "Save money overall",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "Saving later on means that I'm happy to pay the fees now",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "Saving money in the long run is why I would like to pay a fee",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "Saving money in the long run is why I would like to pay a fee upfront",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "This'll be cheaper in the long run",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "this will save me money in the long run",
+      "intent": "LongTermSavings",
+      "entities": []
+    },
+    {
+      "text": "A longer term will give me lower payments",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I can't afford large payments so I need to spread the cost over a longer term",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I don't mind paying more interest but I need lower payments",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I'd rather have lower payments over a longer term",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I'd rather have smaller payments over a longer time",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I'd rather spread the cost over a longer term",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "If I have a longer term I'll have lower payments",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I need my payments to be as low as possible",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I need my payments to be low so I want to have the longest term possible",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I need to keep my repayments low",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I need to spread the cost over a longer time period",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I need to spread the mortgage over a longer term in order to stretch my income to provide for my child",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I need to stretch out the costs over the longest time period",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I wanna have lower monthly payments",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I want a longer term to lower my payments",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I want lower payments",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I want the longest term allowed so that my mortgage payments are as low as possible",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I want the lowest payments",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I want to have lower payments over a longer time",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I want to keep the costs down by spreading it over a longer time",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I want to minimise my payments",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I want to split out the cost over a longer term",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I want to spread out my payments over a longer time period",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I want to spread out the cost over a long time so the payments are lower",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I want to spread the payments over a longer period",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I want to spread the payments over a longer time so they are lower",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "Keep my payments down",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "Spread out the costs to minimise the payments",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "Spread out the repayments over a longer term",
+      "intent": "LowerPayments",
+      "entities": []
+    },
+    {
+      "text": "I plan to make lots of overpayments so I want to set the limit as high as possible",
+      "intent": "MaxOPLimit",
+      "entities": []
+    },
+    {
+      "text": "I want the highest possible overpayment limit",
+      "intent": "MaxOPLimit",
+      "entities": []
+    },
+    {
+      "text": "I want the maximum over payment limit",
+      "intent": "MaxOPLimit",
+      "entities": []
+    },
+    {
+      "text": "I want the maximum overpayment limit",
+      "intent": "MaxOPLimit",
+      "entities": []
+    },
+    {
+      "text": "I want the max overpayments allowance",
+      "intent": "MaxOPLimit",
+      "entities": []
+    },
+    {
+      "text": "I want the option to over pay as much as possible",
+      "intent": "MaxOPLimit",
+      "entities": []
+    },
+    {
+      "text": "I want to be able to over pay as much as possible",
+      "intent": "MaxOPLimit",
+      "entities": []
+    },
+    {
+      "text": "I want to be able to overpay as much as possible",
+      "intent": "MaxOPLimit",
+      "entities": []
+    },
+    {
+      "text": "I want to overpay as much as possible",
+      "intent": "MaxOPLimit",
+      "entities": []
+    },
+    {
+      "text": "I want to set the limit as high as possible",
+      "intent": "MaxOPLimit",
+      "entities": []
+    },
+    {
+      "text": "I want to set the overpayment limit as high as possible",
+      "intent": "MaxOPLimit",
+      "entities": []
+    },
+    {
+      "text": "set limit as high as possible",
+      "intent": "MaxOPLimit",
+      "entities": []
+    },
+    {
+      "text": "want highest overpayment limit",
+      "intent": "MaxOPLimit",
+      "entities": []
+    },
+    {
+      "text": "I can't afford overpayments",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I can't afford paying more",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I can't afford to pay any more",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I can't afford to pay extra",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I don't foresee having enough spare cash to make large overpayments",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I don't foresee having enough spare cash to make large over payments",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I don't foresee having enough spare funds to make large overpayments",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I don't foresee having enough spare funds to make large over payments",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I don't foresee having enough spare money to make large overpayments",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I don't foresee having enough spare money to make large over payments",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I don't have enough money",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I don't have the money to do so",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I don't predict having enough spare cash to make large overpayments",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I don't predict having enough spare cash to make large over payments",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I don't predict having enough spare funds to make large overpayments",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I don't predict having enough spare funds to make large over payments",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I don't predict having enough spare money to make large overpayments",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I don't predict having enough spare money to make large over payments",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I don't think I'll have enough spare cash to make large overpayments",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I don't think I'll have enough spare cash to make large over payments",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I don't think I'll have enough spare cash to pay extra",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I don't think I'll have enough spare funds to make large overpayments",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I don't think I'll have enough spare funds to make large over payments",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I don't think I'll have spare money to make large overpayments",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I don't think I'll have spare money to make large over payments",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I won't be able to pay more each month",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "My budget won't accommodate overpayments",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "My budget won't accommodate over payments",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "My budget won't stretch beyond the normal payment amount",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "My income is predictable - I won't have spare funds to overpay",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "not expecting any extra cash",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "not expecting any extra income",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "not expecting any extra money",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "not expecting any windfall",
+      "intent": "NoBudgetForOP",
+      "entities": []
+    },
+    {
+      "text": "I don't want any additional borrowing",
+      "intent": "NoExtraBorrowing",
+      "entities": []
+    },
+    {
+      "text": "I don't want any extra borrowing",
+      "intent": "NoExtraBorrowing",
+      "entities": []
+    },
+    {
+      "text": "I don't want to add anything to the amount I'm borrowing",
+      "intent": "NoExtraBorrowing",
+      "entities": []
+    },
+    {
+      "text": "I don't want to borrow any extra money",
+      "intent": "NoExtraBorrowing",
+      "entities": []
+    },
+    {
+      "text": "I don't want to borrow any more",
+      "intent": "NoExtraBorrowing",
+      "entities": []
+    },
+    {
+      "text": "I don't want to increase my borrowing",
+      "intent": "NoExtraBorrowing",
+      "entities": []
+    },
+    {
+      "text": "I don't want to increase the amount I'm borrowing",
+      "intent": "NoExtraBorrowing",
+      "entities": []
+    },
+    {
+      "text": "I don't want to increase the size of my mortgage",
+      "intent": "NoExtraBorrowing",
+      "entities": []
+    },
+    {
+      "text": "I'm already borrowing enough",
+      "intent": "NoExtraBorrowing",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid any extra borrowing",
+      "intent": "NoExtraBorrowing",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid borrowing any extra money",
+      "intent": "NoExtraBorrowing",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid borrowing any more",
+      "intent": "NoExtraBorrowing",
+      "entities": []
+    },
+    {
+      "text": "I can't afford an up front fee but I don't want to pay interest on it",
+      "intent": "NoFeeAvoidInterest",
+      "entities": []
+    },
+    {
+      "text": "I can't afford to pay upfront and I don't want to pay interest on it",
+      "intent": "NoFeeAvoidInterest",
+      "entities": []
+    },
+    {
+      "text": "I can't borrow any more however I can't pay up front",
+      "intent": "NoFeeAvoidInterest",
+      "entities": []
+    },
+    {
+      "text": "I can't pay now and I don't want to incur more interest",
+      "intent": "NoFeeAvoidInterest",
+      "entities": []
+    },
+    {
+      "text": "I don't have enough money for an up front fee but I don't want to incur extra interest",
+      "intent": "NoFeeAvoidInterest",
+      "entities": []
+    },
+    {
+      "text": "I don't have enough savings to pay a fee straight away and I don't want to pay interest on it",
+      "intent": "NoFeeAvoidInterest",
+      "entities": []
+    },
+    {
+      "text": "I don't want to borrow more and pay more interest but I can't afford to pay it now",
+      "intent": "NoFeeAvoidInterest",
+      "entities": []
+    },
+    {
+      "text": "I would like to avoid incurring extra interest but can't pay up front",
+      "intent": "NoFeeAvoidInterest",
+      "entities": []
+    },
+    {
+      "text": "I would't want to borrow any more but I can't afford paying now",
+      "intent": "NoFeeAvoidInterest",
+      "entities": []
+    },
+    {
+      "text": "My budget won't cover a fee up front and I want to avoid borrowing any more",
+      "intent": "NoFeeAvoidInterest",
+      "entities": []
+    },
+    {
+      "text": "My budget won't cover the fee straight away and I don't want to pay interest on it",
+      "intent": "NoFeeAvoidInterest",
+      "entities": []
+    },
+    {
+      "text": "Get it out the way",
+      "intent": "NoFeeLater",
+      "entities": []
+    },
+    {
+      "text": "Get the fee done now so I can stop thinking about it",
+      "intent": "NoFeeLater",
+      "entities": []
+    },
+    {
+      "text": "Get the fee out the way",
+      "intent": "NoFeeLater",
+      "entities": []
+    },
+    {
+      "text": "I don't want to worry about the fee later",
+      "intent": "NoFeeLater",
+      "entities": []
+    },
+    {
+      "text": "I want to get it over and done with",
+      "intent": "NoFeeLater",
+      "entities": []
+    },
+    {
+      "text": "I want to get the fee out of the way",
+      "intent": "NoFeeLater",
+      "entities": []
+    },
+    {
+      "text": "Pay the fee now so I don't have to think about it later",
+      "intent": "NoFeeLater",
+      "entities": []
+    },
+    {
+      "text": "So I can focus only on paying the mortgage rate",
+      "intent": "NoFeeLater",
+      "entities": []
+    },
+    {
+      "text": "So I don't have to pay the fee later",
+      "intent": "NoFeeLater",
+      "entities": []
+    },
+    {
+      "text": "so I don't have to think about it later",
+      "intent": "NoFeeLater",
+      "entities": []
+    },
+    {
+      "text": "So I don't need to pay later",
+      "intent": "NoFeeLater",
+      "entities": []
+    },
+    {
+      "text": "So I don't need to pay the fee later",
+      "intent": "NoFeeLater",
+      "entities": []
+    },
+    {
+      "text": "So it's out of the way",
+      "intent": "NoFeeLater",
+      "entities": []
+    },
+    {
+      "text": "don't think base rate will rise",
+      "intent": "NoIncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "Even though the base rate might go up  it could also go down",
+      "intent": "NoIncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I believe that the base rate will fall soon",
+      "intent": "NoIncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I don't think the base rate will rise anytime soon",
+      "intent": "NoIncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I don't think the base rate will rise soon but I can cope if it does",
+      "intent": "NoIncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I'm confident interest rates will not rise faster than my income",
+      "intent": "NoIncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "Interest rates have been so low recently I don't think they will rise faster than my income",
+      "intent": "NoIncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "Interest rates have been so low recently I don't think they will rise too fast in future",
+      "intent": "NoIncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I think interest rates will stay low for the next few months",
+      "intent": "NoIncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I think rates will stay low for the next few years",
+      "intent": "NoIncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "I think the base rate might go down soon",
+      "intent": "NoIncreasedRates",
+      "entities": []
+    },
+    {
+      "text": "According to my calculations the fee won't be worth it",
+      "intent": "NotWorthPaying",
+      "entities": []
+    },
+    {
+      "text": "For my situation it isn't worth me paying the fee",
+      "intent": "NotWorthPaying",
+      "entities": []
+    },
+    {
+      "text": "Having done the maths the fee won't save me enough money to make it worthwhile",
+      "intent": "NotWorthPaying",
+      "entities": []
+    },
+    {
+      "text": "I checked the numbers and the fee won't save me any money",
+      "intent": "NotWorthPaying",
+      "entities": []
+    },
+    {
+      "text": "I've done some calculations and the fee isn?t worth the money",
+      "intent": "NotWorthPaying",
+      "entities": []
+    },
+    {
+      "text": "I've done the maths and it's not worth paying the fee",
+      "intent": "NotWorthPaying",
+      "entities": []
+    },
+    {
+      "text": "I've done the maths and the fee won't save me any money",
+      "intent": "NotWorthPaying",
+      "entities": []
+    },
+    {
+      "text": "I've worked out the total cost and for me the fee isn't worth the money",
+      "intent": "NotWorthPaying",
+      "entities": []
+    },
+    {
+      "text": "I've worked out the total cost and it's not worth me paying the fee",
+      "intent": "NotWorthPaying",
+      "entities": []
+    },
+    {
+      "text": "I've worked out the total cost and the fee isn't worth it for me",
+      "intent": "NotWorthPaying",
+      "entities": []
+    },
+    {
+      "text": "I've worked out the total cost and the fee won't get be a better deal",
+      "intent": "NotWorthPaying",
+      "entities": []
+    },
+    {
+      "text": "I've worked out the total cost and the fee won't save me money",
+      "intent": "NotWorthPaying",
+      "entities": []
+    },
+    {
+      "text": "The fee isn't worth it for me",
+      "intent": "NotWorthPaying",
+      "entities": []
+    },
+    {
+      "text": "I am planning to overpay but it won't exceed 5% of the amount I want to borrow",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I do plan to over pay but I won't be able to afford to pay more than 5%",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I do plan to overpay but I won't be able to afford to pay more than 5%",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I do plan to over pay but I won't be able to afford to pay more than 5% of the total mortgage",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I do plan to overpay but I won't be able to afford to pay more than 5% of the total mortgage",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I do plan to overpay but the payments will be small",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I do plan to overpay but the payments won't be substantial",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "If I do make over payments it will only be a small amount",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "If I do make overpayments it will only be a small amount",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "If I do make over payments they will be small",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "If I do make overpayments they will be small",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "If I do over pay it'll only be a small amount",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "If I do overpay it'll only be a small amount",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "If I do over pay it won't be more than 5% of the total mortgage",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "If I do overpay it won't be more than 5% of the total mortgage",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "If I over pay it'll only be a small amount",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "If I overpay it'll only be a small amount",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I'll only ever make small overpayments",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I'll only ever make small over payments",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I'm going to try to over pay but the amount won't be over 5%",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I'm going to try to overpay but the amount won't be over 5%",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I'm going to try to over pay but the amount won't be over 5% of the amount I'm borrowing",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I'm going to try to overpay but the amount won't be over 5% of the amount I'm borrowing",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I'm going to try to over pay but the amount won't be over 5% of the total mortgage",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I'm going to try to overpay but the amount won't be over 5% of the total mortgage",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I might be able to make over payments but I don't need to pay as much as 5%",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I might be able to make overpayments but I don't need to pay as much as 5%",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I might be able to make over payments but I don't need to pay as much as 5% of the amount I'm borrowing",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I might be able to make overpayments but I don't need to pay as much as 5% of the amount I'm borrowing",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I might be able to make over payments but I don't need to pay as much as 5% of the total mortgage",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I might be able to make overpayments but I don't need to pay as much as 5% of the total mortgage",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I might be able to over pay but the payments won't exceed 5% of the total mortgage",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I might be able to overpay but the payments won't exceed 5% of the total mortgage",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I only plan to make low value overpayments",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I only plan to make low value over payments",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I only plan to make minimal overpayments",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I only plan to make minimal over payments",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I only plan to make small overpayments",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I only plan to make small over payments",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I will be making over payments but not over 5% of my total mortgage",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I will be making overpayments but not over 5% of my total mortgage",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I will be making over payments but not over 5% of the amount I want to borrow",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I will be making overpayments but not over 5% of the amount I want to borrow",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I will be making over payments but they won't be as large as 5% of my total mortgage",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I will be making overpayments but they won't be as large as 5% of my total mortgage",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I will be making over payments but they won't surpass 5% of the amount I want to borrow",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I will be making overpayments but they won't surpass 5% of the amount I want to borrow",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I will try to make over payments but not over 5%",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I will try to make overpayments but not over 5%",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I will try to make over payments but not over 5% of the amount I'm borrowing",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I will try to make overpayments but not over 5% of the amount I'm borrowing",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I will try to make over payments but not over 5% of the total mortgage",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I will try to make overpayments but not over 5% of the total mortgage",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I won't be overpaying more than 5% per year",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "My overpayments wont be larger than 5%",
+      "intent": "OPLessThanFivePercent",
+      "entities": []
+    },
+    {
+      "text": "I'd rather have higher payments and pay it off as soon as possible",
+      "intent": "PayASAP",
+      "entities": []
+    },
+    {
+      "text": "I'd rather pay it off quickly so I have to pay less interest",
+      "intent": "PayASAP",
+      "entities": []
+    },
+    {
+      "text": "I'd rather pay it off sooner and pay less interest",
+      "intent": "PayASAP",
+      "entities": []
+    },
+    {
+      "text": "I'd rather pay more but get rid of the mortgage faster",
+      "intent": "PayASAP",
+      "entities": []
+    },
+    {
+      "text": "I'd rather pay off the mortgage as fast as possible",
+      "intent": "PayASAP",
+      "entities": []
+    },
+    {
+      "text": "I'd rather pay off the mortgage as soon as possible",
+      "intent": "PayASAP",
+      "entities": []
+    },
+    {
+      "text": "I'm keen on paying off the mortgage as soon as possible",
+      "intent": "PayASAP",
+      "entities": []
+    },
+    {
+      "text": "I'm keen to pay everything off as soon as possible",
+      "intent": "PayASAP",
+      "entities": []
+    },
+    {
+      "text": "I want the shortest term to pay it off ASAP",
+      "intent": "PayASAP",
+      "entities": []
+    },
+    {
+      "text": "I want to it to be paid as soon as possible so there's less interest",
+      "intent": "PayASAP",
+      "entities": []
+    },
+    {
+      "text": "I want to pay it off as quickly as possible",
+      "intent": "PayASAP",
+      "entities": []
+    },
+    {
+      "text": "I want to pay it off soon",
+      "intent": "PayASAP",
+      "entities": []
+    },
+    {
+      "text": "I want to pay it off sooner",
+      "intent": "PayASAP",
+      "entities": []
+    },
+    {
+      "text": "Pay it off ASAP",
+      "intent": "PayASAP",
+      "entities": []
+    },
+    {
+      "text": "Pay it off over the shortest time frame",
+      "intent": "PayASAP",
+      "entities": []
+    },
+    {
+      "text": "Pay off the whole balance ASAP",
+      "intent": "PayASAP",
+      "entities": []
+    },
+    {
+      "text": "I'd like to pay less interest",
+      "intent": "PayLessInterest",
+      "entities": []
+    },
+    {
+      "text": "I'd like to pay less money in interest",
+      "intent": "PayLessInterest",
+      "entities": []
+    },
+    {
+      "text": "I'd prefer to pay less interest",
+      "intent": "PayLessInterest",
+      "entities": []
+    },
+    {
+      "text": "I'd prefer to pay less money in interest",
+      "intent": "PayLessInterest",
+      "entities": []
+    },
+    {
+      "text": "If it means I'll get to pay less money in interest",
+      "intent": "PayLessInterest",
+      "entities": []
+    },
+    {
+      "text": "If it would result in paying less interest",
+      "intent": "PayLessInterest",
+      "entities": []
+    },
+    {
+      "text": "If it would result in paying less money in interest",
+      "intent": "PayLessInterest",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid paying more interest over the lifetime of the mortgage",
+      "intent": "PayLessInterest",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid paying too much interest over the life of the mortgage",
+      "intent": "PayLessInterest",
+      "entities": []
+    },
+    {
+      "text": "I want to be paying less money in interest",
+      "intent": "PayLessInterest",
+      "entities": []
+    },
+    {
+      "text": "I want to minimise the interest I pay over the mortgage",
+      "intent": "PayLessInterest",
+      "entities": []
+    },
+    {
+      "text": "I want to minimise the interest i pay over the term",
+      "intent": "PayLessInterest",
+      "entities": []
+    },
+    {
+      "text": "I want to pay as little interest as possible over the mortgage term",
+      "intent": "PayLessInterest",
+      "entities": []
+    },
+    {
+      "text": "I want to pay less interest",
+      "intent": "PayLessInterest",
+      "entities": []
+    },
+    {
+      "text": "I want to pay less interest in the long run",
+      "intent": "PayLessInterest",
+      "entities": []
+    },
+    {
+      "text": "I want to pay less interest over the mortgage",
+      "intent": "PayLessInterest",
+      "entities": []
+    },
+    {
+      "text": "I want to pay less money in interest",
+      "intent": "PayLessInterest",
+      "entities": []
+    },
+    {
+      "text": "I want to pay the minimum interest over the term",
+      "intent": "PayLessInterest",
+      "entities": []
+    },
+    {
+      "text": "Cost less overall",
+      "intent": "PayLessOverall",
+      "entities": []
+    },
+    {
+      "text": "I'd pay less over the whole mortgage",
+      "intent": "PayLessOverall",
+      "entities": []
+    },
+    {
+      "text": "Keep the overall cost down",
+      "intent": "PayLessOverall",
+      "entities": []
+    },
+    {
+      "text": "Less expensive overall",
+      "intent": "PayLessOverall",
+      "entities": []
+    },
+    {
+      "text": "Pay less overall",
+      "intent": "PayLessOverall",
+      "entities": []
+    },
+    {
+      "text": "Reduce the overall cost",
+      "intent": "PayLessOverall",
+      "entities": []
+    },
+    {
+      "text": "The cost of over the whole mortgage will be lower",
+      "intent": "PayLessOverall",
+      "entities": []
+    },
+    {
+      "text": "The overall cost will be less",
+      "intent": "PayLessOverall",
+      "entities": []
+    },
+    {
+      "text": "The overall cost will be lower",
+      "intent": "PayLessOverall",
+      "entities": []
+    },
+    {
+      "text": "The total cost will be less",
+      "intent": "PayLessOverall",
+      "entities": []
+    },
+    {
+      "text": "The total cost will be lower",
+      "intent": "PayLessOverall",
+      "entities": []
+    },
+    {
+      "text": "Early repayment charges don?t concern me",
+      "intent": "PenaltiesNoProblem",
+      "entities": []
+    },
+    {
+      "text": "ERC's don't concern me",
+      "intent": "PenaltiesNoProblem",
+      "entities": []
+    },
+    {
+      "text": "ERCs don't worry me",
+      "intent": "PenaltiesNoProblem",
+      "entities": []
+    },
+    {
+      "text": "Facing penalties doesn't concern me",
+      "intent": "PenaltiesNoProblem",
+      "entities": []
+    },
+    {
+      "text": "I don't mind being penalised",
+      "intent": "PenaltiesNoProblem",
+      "entities": []
+    },
+    {
+      "text": "I'm not bothered about charges",
+      "intent": "PenaltiesNoProblem",
+      "entities": []
+    },
+    {
+      "text": "I'm not bothered about penalties",
+      "intent": "PenaltiesNoProblem",
+      "entities": []
+    },
+    {
+      "text": "I'm not concerned about early repayment charges",
+      "intent": "PenaltiesNoProblem",
+      "entities": []
+    },
+    {
+      "text": "I'm not concerned about facing early repayment charges",
+      "intent": "PenaltiesNoProblem",
+      "entities": []
+    },
+    {
+      "text": "I'm not concerned about facing penalties",
+      "intent": "PenaltiesNoProblem",
+      "entities": []
+    },
+    {
+      "text": "I'm not concerned about penalties",
+      "intent": "PenaltiesNoProblem",
+      "entities": []
+    },
+    {
+      "text": "I'm not too worried about being penalised",
+      "intent": "PenaltiesNoProblem",
+      "entities": []
+    },
+    {
+      "text": "I'm not worried about charges",
+      "intent": "PenaltiesNoProblem",
+      "entities": []
+    },
+    {
+      "text": "I'm not worried about penalties",
+      "intent": "PenaltiesNoProblem",
+      "entities": []
+    },
+    {
+      "text": "I can afford to make large overpayments",
+      "intent": "PlanningToOP",
+      "entities": []
+    },
+    {
+      "text": "I can afford to make large over payments",
+      "intent": "PlanningToOP",
+      "entities": []
+    },
+    {
+      "text": "I can afford to make substantial overpayments",
+      "intent": "PlanningToOP",
+      "entities": []
+    },
+    {
+      "text": "I can afford to make substantial over payments",
+      "intent": "PlanningToOP",
+      "entities": []
+    },
+    {
+      "text": "I have a large income so I want to be able to overpay higher ammounts",
+      "intent": "PlanningToOP",
+      "entities": []
+    },
+    {
+      "text": "I'm keeping my monthly payments low so I should have spare funds to make overpayments",
+      "intent": "PlanningToOP",
+      "entities": []
+    },
+    {
+      "text": "I plan to make large overpayments",
+      "intent": "PlanningToOP",
+      "entities": []
+    },
+    {
+      "text": "I plan to make large over payments",
+      "intent": "PlanningToOP",
+      "entities": []
+    },
+    {
+      "text": "I plan to make significant overpayments",
+      "intent": "PlanningToOP",
+      "entities": []
+    },
+    {
+      "text": "I plan to make significant over payments",
+      "intent": "PlanningToOP",
+      "entities": []
+    },
+    {
+      "text": "I plan to make substantial overpayments",
+      "intent": "PlanningToOP",
+      "entities": []
+    },
+    {
+      "text": "I plan to make substantial over payments",
+      "intent": "PlanningToOP",
+      "entities": []
+    },
+    {
+      "text": "I want the flexibility to overpay more than 5%",
+      "intent": "PlanningToOP",
+      "entities": []
+    },
+    {
+      "text": "I want the option to overpay",
+      "intent": "PlanningToOP",
+      "entities": []
+    },
+    {
+      "text": "I want to be able to add to the mortgage when I can",
+      "intent": "PlanningToOP",
+      "entities": []
+    },
+    {
+      "text": "I want to be able to overpay more than 5%",
+      "intent": "PlanningToOP",
+      "entities": []
+    },
+    {
+      "text": "I want to be able to pay off a lump sum if I've saved up some spare cash",
+      "intent": "PlanningToOP",
+      "entities": []
+    },
+    {
+      "text": "I want to overpay often",
+      "intent": "PlanningToOP",
+      "entities": []
+    },
+    {
+      "text": "I would like to be able to overpay more than 5%",
+      "intent": "PlanningToOP",
+      "entities": []
+    },
+    {
+      "text": "my monthly payments are quite low so I should be able to make bigger overpayments",
+      "intent": "PlanningToOP",
+      "entities": []
+    },
+    {
+      "text": "I'd like to save money now and spend it elsewhere",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I don't mind paying interest on the fee; I have earmarked my remaining savings for a new bathroom",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I need to keep some cash aside for doing up the house",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I need to keep some cash aside for doing up the house  so I want to add the fee on",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I need to keep some cash aside for doing up the house  so I want to add the fee on even if this means paying more interest",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I need to keep some cash aside for doing up the house when I move in",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I need to keep some cash aside for doing up the house when I move in so I want to add the fee on",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I need to keep some cash aside for doing up the house when I move in so I want to add the fee on even if this means paying more interest",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I need to keep some cash aside for home improvements",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I need to keep some cash aside for home improvements so I want to add the fee on",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I need to keep some cash aside for home improvements so I want to add the fee on even if this means paying more interest",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I need to keep some money aside for a new bathroom",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I need to keep some money aside for a new kitchen",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I need to keep some money aside to fix the roof",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I need to pay for some building work on the property so I need to save my budget",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I need to pay for some building work on the property so I need to save my cash",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I need to pay for some building work on the property so I need to save my money for that",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I need to pay for some building work on the property so I need to save my savings",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I need to save some money to do home improvements when I move in",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I need to save some money to do home improvements when I move in so I want to add the fee on",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I need to save some money to do home improvements when I move in so I want to add the fee on even if this means paying more interest",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I prefer to spend my money on other things",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I've earmarked the last of my savings",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I've earmarked the last of my savings for a new bathroom",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I've earmarked the last of my savings for a new bathroom so I want to add the fee on",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I've earmarked the last of my savings for a new bathroom so I want to add the fee on even if this means paying more interest",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I've earmarked the last of my savings for a new kitchen",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I've earmarked the last of my savings for a new kitchen so I want to add the fee on",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I've earmarked the last of my savings for a new kitchen so I want to add the fee on even if this means paying more interest",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I've earmarked the last of my savings so I want to add the fee on",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I've earmarked the last of my savings so I want to add the fee on even if this means paying more interest",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "My budget is going towards some building work",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "My budget needs to go towards some home improvements",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "Need to budget for furniture",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "Need to budget for new bathroom",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "Need to budget for new kitchen",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "Need to spend money on other things",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "Put money towards furniture instead",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "Put money towards other things instead",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "Spend money on furniture instead",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "Spend money on house things instead",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "Spend money on improvements instead",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "Spend money on renovations instead",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "Using savings for furniture",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "Using savings for furniture instead",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "Using savings for new bathroom",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "Using savings for new bathroom instead",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "Using savings for new kitchen",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "Using savings for new kitchen instead",
+      "intent": "PutMoneyElsewhere",
+      "entities": []
+    },
+    {
+      "text": "I'm due to retire after this time",
+      "intent": "RetirementDate",
+      "entities": []
+    },
+    {
+      "text": "I'm going to retire after this many years",
+      "intent": "RetirementDate",
+      "entities": []
+    },
+    {
+      "text": "I plan to retire after this time",
+      "intent": "RetirementDate",
+      "entities": []
+    },
+    {
+      "text": "I want to have paid off my mortgage before my planned retirement date",
+      "intent": "RetirementDate",
+      "entities": []
+    },
+    {
+      "text": "I want to pay off my mortgage before I retire",
+      "intent": "RetirementDate",
+      "entities": []
+    },
+    {
+      "text": "I want to payoff my mortgage before I retire",
+      "intent": "RetirementDate",
+      "entities": []
+    },
+    {
+      "text": "I want to payoff my mortgage before my planned retirement date",
+      "intent": "RetirementDate",
+      "entities": []
+    },
+    {
+      "text": "I want to tie the mortgage in with my planned retirement date",
+      "intent": "RetirementDate",
+      "entities": []
+    },
+    {
+      "text": "retirement date",
+      "intent": "RetirementDate",
+      "entities": []
+    },
+    {
+      "text": "retire then",
+      "intent": "RetirementDate",
+      "entities": []
+    },
+    {
+      "text": "retiring then",
+      "intent": "RetirementDate",
+      "entities": []
+    },
+    {
+      "text": "That's when I'll retire",
+      "intent": "RetirementDate",
+      "entities": []
+    },
+    {
+      "text": "This is when I'm retiring",
+      "intent": "RetirementDate",
+      "entities": []
+    },
+    {
+      "text": "This term matches my retirement date",
+      "intent": "RetirementDate",
+      "entities": []
+    },
+    {
+      "text": "This ties in with my retirement date",
+      "intent": "RetirementDate",
+      "entities": []
+    },
+    {
+      "text": "I'd like to maximise my savings in the short term",
+      "intent": "ShortTermSavings",
+      "entities": []
+    },
+    {
+      "text": "I'd like to maximise my short term savings",
+      "intent": "ShortTermSavings",
+      "entities": []
+    },
+    {
+      "text": "I'd like to save money in the short term so add the fee on",
+      "intent": "ShortTermSavings",
+      "entities": []
+    },
+    {
+      "text": "I'd like to save money now  I don't mind paying the interest on the fee",
+      "intent": "ShortTermSavings",
+      "entities": []
+    },
+    {
+      "text": "I don't mind paying the interest on the fee and save money now",
+      "intent": "ShortTermSavings",
+      "entities": []
+    },
+    {
+      "text": "I'd prefer to save money now",
+      "intent": "ShortTermSavings",
+      "entities": []
+    },
+    {
+      "text": "I'd rather save money in the short term",
+      "intent": "ShortTermSavings",
+      "entities": []
+    },
+    {
+      "text": "I know it will cost more in the long run but I want to save money now",
+      "intent": "ShortTermSavings",
+      "entities": []
+    },
+    {
+      "text": "I need to save money now",
+      "intent": "ShortTermSavings",
+      "entities": []
+    },
+    {
+      "text": "I need to save the rest of my cash",
+      "intent": "ShortTermSavings",
+      "entities": []
+    },
+    {
+      "text": "I want to save money now",
+      "intent": "ShortTermSavings",
+      "entities": []
+    },
+    {
+      "text": "I would like to save money in the short term",
+      "intent": "ShortTermSavings",
+      "entities": []
+    },
+    {
+      "text": "I would like to save money now",
+      "intent": "ShortTermSavings",
+      "entities": []
+    },
+    {
+      "text": "Not paying the fee will save me money in the short term",
+      "intent": "ShortTermSavings",
+      "entities": []
+    },
+    {
+      "text": "I am financially stable",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "I don't expect any changes to my financial situation",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "I don't expect my finances to go down",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "I don't expect my financial situation to change anytime soon",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "I don't expect my income to decrease",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "I have a permanent job",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "I have a stable job",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "I have a steady income",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "I have a steady job",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "I have good job security",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "I have no plan to change jobs",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "my employment is stable",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "my employment status is going to stay the same",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "my financial situation isn't going to change",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "my income is not going to go down at all",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "my income isn't going to decrease",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "My income is stable",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "My income is steady and won't decrease",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "My Income won't decrease",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "my job is unlikely to change",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "Nothing I can forsee will change my Financial situation",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "secure income",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "secure job",
+      "intent": "StableIncome",
+      "entities": []
+    },
+    {
+      "text": "A variable rate will save me money in the future and I accept the risk of a payment rise",
+      "intent": "VarPayLess",
+      "entities": []
+    },
+    {
+      "text": "A variable rate will save me money in the long run although there's a risk of higher payments",
+      "intent": "VarPayLess",
+      "entities": []
+    },
+    {
+      "text": "I accept the risk because I think a variable rate will save me money in the long run",
+      "intent": "VarPayLess",
+      "entities": []
+    },
+    {
+      "text": "I acknowledge the risk but I think I'll pay less overall",
+      "intent": "VarPayLess",
+      "entities": []
+    },
+    {
+      "text": "I am comfortable with the uncertainty  and believe a Variable Rate will mean I pay less interest in the end",
+      "intent": "VarPayLess",
+      "entities": []
+    },
+    {
+      "text": "I believe I'd save money in the long term with a variable rate but I understand the risk",
+      "intent": "VarPayLess",
+      "entities": []
+    },
+    {
+      "text": "I'm ok with the uncertainty and I think a variable rate will cost me less in the long run",
+      "intent": "VarPayLess",
+      "entities": []
+    },
+    {
+      "text": "I'm willing to take a risk because I think I'll end up paying less interest over the lifetime of the mortgage",
+      "intent": "VarPayLess",
+      "entities": []
+    },
+    {
+      "text": "I'm willing to take a risk because I think I'll save money in the long run",
+      "intent": "VarPayLess",
+      "entities": []
+    },
+    {
+      "text": "I'm willing to take a risk because I think this would cost me less overall",
+      "intent": "VarPayLess",
+      "entities": []
+    },
+    {
+      "text": "I think this will cost me less overall and I understand the risk",
+      "intent": "VarPayLess",
+      "entities": []
+    },
+    {
+      "text": "I think this will cost me less overall even though I need to take a risk",
+      "intent": "VarPayLess",
+      "entities": []
+    },
+    {
+      "text": "I understand the risk involved but I am confident the total cost would be lower",
+      "intent": "VarPayLess",
+      "entities": []
+    },
+    {
+      "text": "I understand the risk involved but I am confident this would reduce the overall cost for me",
+      "intent": "VarPayLess",
+      "entities": []
+    },
+    {
+      "text": "I understand the risk involved but I am confident this would save me money overall",
+      "intent": "VarPayLess",
+      "entities": []
+    },
+    {
+      "text": "gonna pay the fixed amount",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "I don't need to make overpayments",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "I don't plan to make overpayments",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "I don't plan to overpay often",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "I don't plan to pay more than the monthly amount",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "I don't think I'll be making overpayments",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "I just want to pay the same amount each month",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "I just want to pay the same amount throughout the mortgage",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "I'll be paying the regular monthly payment only",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "I'll pay the same amount",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "I'm just planning to make the regular monthly payment",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "I'm not interested in making overpayments",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "I'm not interested in making over payments",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "I only plan to make the normal monthly payment",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "I only plan to make the regular monthly payment",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "I only plan to make the usual monthly payment",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "I will be only paying the regular monthly payments",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "I won't be making large overpayments",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "I won't be making large over payments",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "I won't be making overpayments",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "not gonna pay more",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "only pay agreed amount",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "won't make overpayments",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "won't pay any more",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "won't pay extra",
+      "intent": "WillNotOP",
+      "entities": []
+    },
+    {
+      "text": "I don't plan on staying long term",
+      "intent": "PotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I don't plan to stay too long",
+      "intent": "PotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'm not planning to stay for that long in the apartment",
+      "intent": "PotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'm not planning to stay for that long in the flat",
+      "intent": "PotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'm not planning to stay for that long in the house",
+      "intent": "PotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'm not planning to stay for very long in the property",
+      "intent": "PotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'm not staying for very long before moving",
+      "intent": "PotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'm not sure how long I'll be staying",
+      "intent": "PotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'm not sure how long I'll be staying so I want to keep my options open",
+      "intent": "PotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I won't live there for very long",
+      "intent": "PotentialMove",
+      "entities": []
+    },
+    {
+      "text": "not staying long",
+      "intent": "PotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'd like the flexibility to repay the whole mortgage in a shorter period of time without Early Repayment Charges",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I'd like to keep my options open",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be stuck with a deal for too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be stuck with a particular deal for too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be tied down by a long term deal",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don\ufffd\ufffd\ufffdt want to be tied down for too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be tied in for too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be tied in to a deal for too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be tied into a deal for too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be tied in to a deal for too long so I want to keep my options open",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be tied in too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be tied into the mortgage rate for too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't want to commit for too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't want to commit myself to a particular deal for too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I want some stability but don't want to be tied in for too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid being tied in too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I want to keep my options open",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I want to stay flexible",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "not stuck in a deal too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "not tied in too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "stay flexible",
+      "intent": "NoTieDown",
+      "entities": []
+    }
+  ]
+}

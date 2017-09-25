@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="788px" height="200px" viewBox="0 0 788 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="392" y="0" width="396" height="200" rx="100"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <rect id="Rectangle-Copy-2" fill="#143B61" x="0" y="0" width="784" height="200" rx="100"></rect>
+            <g id="Rectangle-Copy-3">
+                <use fill="#7ED321" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <rect stroke="#143B61" stroke-width="20" x="402" y="10" width="376" height="180" rx="90"></rect>
+            </g>
+            <text id="Voice-Copy" font-family="Arial-BoldMT, Arial" font-size="110" font-weight="bold" fill="#FFFFFF">
+                <tspan x="92" y="135">Voice</tspan>
+            </text>
+            <circle id="Oval-Copy" fill="#FFFFFF" cx="690.5" cy="99.5" r="64.5"></circle>
+            <text id="ON" font-family="Arial-BoldMT, Arial" font-size="80" font-weight="bold" fill="#417505">
+                <tspan x="470" y="129">ON</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

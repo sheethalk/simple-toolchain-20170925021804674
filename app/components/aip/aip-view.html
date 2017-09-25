@@ -1,0 +1,205 @@
+<div id="input-overlay" class="modal-dialog modal-lg" ng-show="displayStatus">
+  <div class="modal-dialog aip-modal">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Please fill in your details</h4>
+      </div>
+      <div class="modal-body">
+        <form name="aipDetails">
+          <div class="form-group">
+            <label for="customerName">Customer Name (e.g. Collette)</label>
+            <input type="text" class="form-control" id="customerName" required
+            ng-model="personalDetails.name" required placeholder="Customer Name">
+          </div>
+
+          <div class="form-group">
+            <label for="customerName">Customer Age (e.g. 35)</label>
+            <input type="number" class="form-control" id="age" required
+            ng-model="personalDetails.age" required placeholder="Age">
+          </div>
+
+          <div class="form-group">
+            <label for="customerName">Planned Retirement Age (e.g. 65)</label>
+            <input type="number" class="form-control" id="retirementAge" required
+            ng-model="personalDetails.retirementAge" required placeholder="Retirement Age">
+          </div>
+
+          <div class="form-group">
+            <label for="customerName">Customer Budget per Month (e.g. &pound;2000)</label>
+            <input type="number" class="form-control" id="budget" required
+            ng-model="personalDetails.budget" required placeholder="Budget">
+          </div>
+
+          <div class="form-group">
+            <label for="properyValue">Property Value (e.g. &pound;250000)</label>
+            <input type="number" class="form-control" id="properyValue" required
+            ng-model="personalDetails.propertyValue" placeholder="Property Value">
+          </div>
+
+          <div class="form-group">
+            <label for="propertyLocation">Property Location (e.g. London)</label>
+            <input type="propertyLocation" class="form-control" id="propertyLocation" required
+            ng-model="personalDetails.propertyLocation" placeholder="Property Location">
+          </div>
+
+          <div class="form-group">
+            <label for="customerName">Loan To Value (e.g. 90%)</label>
+            <input type="number" class="form-control" id="loanToValue" required
+            ng-model="personalDetails.ltv" required placeholder="Loan To Value">
+          </div>
+
+        </form>
+        <p class="error-message">{{error}}</p>
+      </div>
+
+      <div class="modal-footer">
+        <button id="complete" type="button" class="btn btn-default" ng-click="showHide()">Complete</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <section class="row header-container">
+    <div class="col-md-8">
+      <h1>Your Agreement in Principle (AIP)</h1>
+    </div>
+
+    <div class="col-md-4 text-muted reference-number">
+      <p>Your reference number: <b>{{personalDetails.referenceNumber}}</b></p>
+      <p>AIP valid until <b>{{personalDetails.expiryDate | date: 'MMMM yyyy'}}</b></p>
+    </div>
+  </section>
+
+  <section class="introductory-text-section">
+    <h2><span class="glyphicon glyphicon-ok-sign"></span> Congratulations!</h2>
+    <p class="lead">
+      You've successfully completed your Agreement in Principle and we'd be happy to lend you the amount
+        of <span id="currency-custom">{{personalDetails.totalBorrowing | currency:"&pound; ":0}} you require.
+    </p>
+    <div class="row">
+      <p class="col-md-8">
+        Our agreement is for a minimum term of {{personalDetails.minTerm}} years with a deposit of
+        <span id="currency-custom">{{personalDetails.deposit | currency:"&pound; ":0}}</span>. This Agreement in
+        Principle is valid for 3 months. A copy of this certificate along with all relevant information
+        on it has been emailed to you at <span class="highlight-text">{{personalDetails.name | lowercase}}@gmail.co.uk</span>
+      </p>
+      <span class="col-md-4 button-container">
+        <button class="btn btn-default apply-button print-button">Print Agreement</button>
+      </span>
+    </div>
+  </section>
+
+  <section class="information-box">
+    <h3>Your Mortgage Calculator</h2>
+    <p>
+      Your Agreement in Principle has been based on some estimates and assumptions, outlined below.
+      To request an Agreement in Principle for a different loan amount, property value or term
+      please explore the options below or speak to one of our advisers.
+    </p>
+
+    <div class="row row-container">
+
+      <div class="col-md-4 text-center calculator-box">
+        <h3 class='calculator-title'>Your Total Mortgage</h3>
+        <p class="figures"><span id="currency-custom">{{personalDetails.propertyValue | currency:"&pound; ":0}}</span></p>
+
+        <div class="slider">
+          <hr/>
+          <img src="assets/img/slider.png"/>
+        </div>
+      </div>
+
+      <div class="col-md-4 text-center calculator-box">
+        <h3 class='calculator-title'>Your Deposit</h3>
+        <p class="figures"><span id="currency-custom">{{personalDetails.deposit | currency:"&pound; ":0}}</span></p>
+
+        <div class="slider">
+          <hr/>
+          <img src="assets/img/slider.png"/>
+        </div>
+      </div>
+
+      <div class="col-md-4 text-center calculator-box last">
+        <h3 class='calculator-title'>Your Term</h3>
+        <p class="figures">{{personalDetails.minTerm}} to {{personalDetails.maxTerm}} years</p>
+
+        <div class="slider">
+          <hr/>
+          <img src="assets/img/slider.png"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center calculate-button">
+      <a class="btn btn-default apply-button apply-button-continue">Calculate</a>
+    </div>
+  </section>
+
+  <section>
+    <h3>So what is next?</h2>
+    <p>
+      When you are ready to continue with your application you can speak to one of our advisers in
+      branch, over the phone or with our quick and simple online mortgage assistant. Alternatively,
+      you may wish to speak to an independent financial adviser.
+    </p>
+
+    <div class="row row-container">
+      <div class="col-md-4 apply-method-container text-center">
+
+        <div class="image-container">
+          <img class="apply-type" src="assets/img/clock.png"/>
+        </div>
+
+
+        <h4 class="highlight-text">Book an Appointment</h4>
+        <div class="apply-text">
+          <p>
+            Setup a mortgage appointment with an adviser in branch or over the phone who will be able
+            to discuss and advise you on your options and choices.
+          </p>
+          <p>An adviser will contact you within 48 hours to confirm the date and time.</p>
+        </div>
+
+        <a class="btn btn-default apply-button apply-button-continue">Book</a>
+      </div>
+
+      <div class="col-md-4 apply-method-container text-center">
+        <div class="image-container">
+          <img class="apply-type" src="assets/img/comp.png"/>
+        </div>
+        <h4 class="highlight-text">Apply Online</h4>
+        <div class="apply-text">
+          <p>If you don't need advice you can apply online using our quick and simple system.</p>
+          <p>
+            We'll need to ask a few questions first to make sure you're eligible but then you can
+            proceed with your application entirely online.
+          </p>
+        </div>
+        <a class="btn btn-default apply-button apply-button-continue">Apply</a>
+      </div>
+
+      <div class="col-md-4 apply-method-container text-center last">
+
+        <div class="image-container">
+          <img src="assets/img/collette.png"/>
+        </div>
+        <h4 class="highlight-text text-center">Apply Online with Advice</h4>
+        <div class="apply-text">
+          <p>
+            Collette is our online Digital Mortgage Adviser who will guide you through the application
+            process and provide you with a recommendation of what mortgage to choose based on your
+            circumstances and preferences.
+          </p>
+        </div>
+
+        <a id="chatNow" class="btn btn-default apply-button apply-button-continue" href="#/chat">Chat Now</a>
+      </div>
+
+    </div>
+  </section>
+  <p class="container repayment-notice" style="margin-bottom:100px;">
+    YOUR HOME MAY BE REPOSSESSED IF YOU DO NOT KEEP UP REPAYMENTS ON YOUR MORTGAGE
+  </p>
+</div>
+</div>

@@ -1,0 +1,169 @@
+#suggestViewClientComponent {
+    display: inline;
+    box-sizing: border-box;
+    width: auto
+}
+
+#suggestViewClientComponent .autocomplete-container {
+    display: table;
+    background-color: #fff;
+    border: 1px solid #c3c4c4;
+    box-shadow: 4px 6px 16px rgba(48, 48, 48, .25);
+    left: -1px;
+    top: 2px;
+    margin-left: 15px;
+    margin-top: 36px;
+    max-height: 477px;
+    width: 549px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 10px;
+    position: absolute;
+    z-index: 498
+}
+
+#suggestViewClientComponent .autocomplete-container .autocomplete-skus-container, #suggestViewClientComponent .autocomplete-container .autocomplete-suggestions-container {
+    display: table-cell;
+    vertical-align: top;
+    width: 50%
+}
+
+#suggestViewClientComponent .autocomplete-container .autocomplete-suggestions-container {
+    padding-right: 15px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 250px
+}
+
+#suggestViewClientComponent .autocomplete-container .autocomplete-suggestions-container .suggestion-category-list, #suggestViewClientComponent .autocomplete-container .autocomplete-suggestions-container .suggestion-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    -webkit-box-shadow: none
+}
+
+#suggestViewClientComponent .autocomplete-container .autocomplete-suggestions-container .suggestion-category-list li, #suggestViewClientComponent .autocomplete-container .autocomplete-suggestions-container .suggestion-list li {
+    background: #fff;
+    color: #0062b8;
+    line-height: 25px;
+    min-height: 20px;
+    overflow: hidden;
+    padding: 4px 5px;
+    margin: 0;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer
+}
+
+#suggestViewClientComponent .autocomplete-container .autocomplete-suggestions-container .suggestion-category-list li.selected, #suggestViewClientComponent .autocomplete-container .autocomplete-suggestions-container .suggestion-list li.selected {
+    text-decoration: underline
+}
+
+#suggestViewClientComponent .autocomplete-container .autocomplete-suggestions-container .suggestion-category-list li.skulected, #suggestViewClientComponent .autocomplete-container .autocomplete-suggestions-container .suggestion-list li.skulected {
+    background-color: #e7e7e7
+}
+
+#suggestViewClientComponent .autocomplete-container .autocomplete-skus-container {
+    border-left: 1px solid #e3e4e4;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 4px;
+    line-height: default
+}
+
+#suggestViewClientComponent .autocomplete-container .autocomplete-skus-container .suggest-sku-list {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+#suggestViewClientComponent .autocomplete-container .autocomplete-skus-container .suggest-sku-list .suggest-sku {
+    margin: 0;
+    margin-bottom: 20px;
+    white-space: normal;
+    height: 64px
+}
+
+#suggestViewClientComponent .autocomplete-container .autocomplete-skus-container .suggest-sku-list .suggest-sku .suggest-sku-wrapper {
+    display: table;
+    text-decoration: none
+}
+
+#suggestViewClientComponent .autocomplete-container .autocomplete-skus-container .suggest-sku-list .suggest-sku .suggest-sku-wrapper .suggest-sku-image {
+    display: table-cell;
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+    width: 60px
+}
+
+#suggestViewClientComponent .autocomplete-container .autocomplete-skus-container .suggest-sku-list .suggest-sku .suggest-sku-wrapper .suggest-sku-image img {
+    display: block;
+    margin: 0 auto
+}
+
+#suggestViewClientComponent .autocomplete-container .autocomplete-skus-container .suggest-sku-list .suggest-sku .suggest-sku-wrapper .suggest-sku-detail {
+    display: table-cell;
+    vertical-align: top;
+    line-height: 1.3;
+    padding-left: 15px;
+    padding-right: 20px
+}
+
+#suggestViewClientComponent .autocomplete-container .autocomplete-skus-container .suggest-sku-list .suggest-sku .suggest-sku-wrapper .suggest-sku-detail .suggest-sku-title {
+    height: 3.8em;
+    width: 152px;
+    word-wrap: break-word;
+    overflow: hidden
+}
+
+#suggestViewClientComponent .autocomplete-container .autocomplete-skus-container .suggest-sku-list .suggest-sku:last-child {
+    margin-bottom: 0;
+    height: 60px
+}
+
+#suggestViewClientComponent .autocomplete-container .autocomplete-skus-container .suggest-sku-list .selected {
+    background: none
+}
+
+#suggestViewClientComponent .autocomplete-container .autocomplete-skus-container .suggest-sku-list .selected .suggest-sku-title {
+    text-decoration: underline !important
+}
+
+#suggestViewClientComponent .autocomplete-container .autocomplete-skus-container h3 {
+    padding-top: 4px;
+    padding-bottom: 15px
+}
+
+#suggestViewClientComponent .autocomplete-container .highlight-text {
+    font-weight: 700
+}
+
+#suggestViewClientComponent .autocomplete-container .in-text {
+    color: #231f20;
+    font-style: italic
+}
+
+#suggestViewClientComponent .autocomplete-container .category-name {
+    color: #49494a
+}
+
+#suggestViewClientComponent .autocomplete-container hr {
+    display: none
+}
+
+#suggestViewClientComponent .autocomplete-container h3 {
+    font-size: 15px;
+    color: #49494a;
+    font-weight: 700;
+    padding: 0;
+    padding-top: 15px;
+    padding-bottom: 11px
+}
+
+.product-flipping-disabled .autocomplete-suggestions-container .selected {
+    text-decoration: none !important;
+    background-color: #e7e7e7 !important
+}

@@ -1,0 +1,1793 @@
+{
+  "luis_schema_version": "1.3.0",
+  "name": "ColletteLUISNum",
+  "desc": "Collette LUIS model for numerical centric intents.",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "InitTerm"
+    },
+    {
+      "name": "2yrAvoidERC"
+    },
+    {
+      "name": "2yrPotentialMove"
+    },
+    {
+      "name": "2yrReview"
+    },
+    {
+      "name": "3yrAvoidERC"
+    },
+    {
+      "name": "3yrPotentialMove"
+    },
+    {
+      "name": "3yrReview"
+    },
+    {
+      "name": "AvoidERC"
+    },
+    {
+      "name": "feeAdd"
+    },
+    {
+      "name": "feeUpfront"
+    },
+    {
+      "name": "fixedRate"
+    },
+    {
+      "name": "PotentialMove"
+    },
+    {
+      "name": "Review"
+    },
+    {
+      "name": "ReviewSoon"
+    },
+    {
+      "name": "ShortTermStability"
+    },
+    {
+      "name": "term"
+    },
+    {
+      "name": "variableRate"
+    },
+    {
+      "name": "NoTieDown"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "bing_entities": [
+    "number"
+  ],
+  "actions": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "* year initial term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "*-year initial term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "* years initial term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "Give me a * year initial term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "Give me a *-year initial term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "Give me a * years initial term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I'd like a * year initial term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I'd like a * year introductory term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I'd like a * year initial term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I'd like a * year introductory term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I'll choose a * year initial term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I'll choose a * year introductory term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I'll choose a * year initial term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I'll choose a * year introductory term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I prefer * year",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I prefer *-year",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I prefer * years",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I want a * year initial term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I want a *-year initial term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I want a * year introductory term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I want a * years initial term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I want a * year initial term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I want a * year introductory term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I want to fix it for  * years",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I want to fix it for * years",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I want to fix it for the first * years",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I want to fix it for the first * years",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I want to fix it for  * years",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I want to fix the rate for * years",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I would like a * year initial term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I would like a *-year initial term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I would like a * years initial term",
+      "intent": "InitTerm",
+      "entities": []
+    },
+    {
+      "text": "I don't want to risk being paying a penalty if I change deal after 2 years",
+      "intent": "2yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I don't want to risk being paying a penalty if I move after 2 years",
+      "intent": "2yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I don't want to risk being penalised if I change deal after 2 years",
+      "intent": "2yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I don't want to risk being penalised if I move after 2 years",
+      "intent": "2yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid penalties by getting out of the deal after 2 years",
+      "intent": "2yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid penalties by getting out of the deal ASAP",
+      "intent": "2yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid penalties by getting out of the deal as soon as possible",
+      "intent": "2yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I want to be out of the early repayment charge period after 2 years",
+      "intent": "2yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I want to get out of the Early Repayment Charge Period ASAP",
+      "intent": "2yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I want to get out of the Early Repayment Charge Period as soon as possible",
+      "intent": "2yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "After 2 years I may want to move",
+      "intent": "2yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I expect I might move after 2 years",
+      "intent": "2yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I have a potential move in a couple of years",
+      "intent": "2yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'll look at getting a new property after 2 years",
+      "intent": "2yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'll move house in 2 years",
+      "intent": "2yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'll move house in two years",
+      "intent": "2yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I may have to move after 2 years",
+      "intent": "2yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I may have to move after 2 years so I want to keep my options open",
+      "intent": "2yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'm going to move soon",
+      "intent": "2yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I might get a new apartment after 2 years",
+      "intent": "2yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I might move after 2 years",
+      "intent": "2yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I might move after two years",
+      "intent": "2yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'm planning to move after 2 years",
+      "intent": "2yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I won't stay for long",
+      "intent": "2yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "There's a chance I might move in a couple of years",
+      "intent": "2yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I might look to move to a different mortgage provider after 2 years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "I might look to remortgage after a couple of years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "I might want to change my deal after 2 years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "I might want to change my deal after two years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "I might want to change my product after 2 years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "I might want to change my product after two years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "I might want to remortgage after 2 years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "I might want to review my deal after 2 years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "I might want to review my deal after two years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "I might want to review my product after 2 years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "I might want to review my product after two years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "I'm planning to review my mortgage in 2 years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "I'm planning to review my mortgage in two years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "I plan to review my deal after 2 years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "I want the option to change my product after 2 years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "I want to be able to review my mortgage in two years' time",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "I will do a product transfer in 2 years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "I will do a product transfer in two years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "I will remortgage after 2 years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "I will remortgage after two years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "new product after 2 years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "new product after two years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "remortgage after 2 years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "remortgage after two years",
+      "intent": "2yrReview",
+      "entities": []
+    },
+    {
+      "text": "3 year initial term",
+      "intent": "3Year",
+      "entities": []
+    },
+    {
+      "text": "I don't want penalties if I change deal in 3 years",
+      "intent": "3yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I don't want penalties if I move in 3 years",
+      "intent": "3yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I don't want penalties if I remortgage in 3 years",
+      "intent": "3yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I don't want to risk being charged if I move after 3 years",
+      "intent": "3yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I don't want to risk being penalised if I change deal after 3 years",
+      "intent": "3yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I don't want to risk being penalised if I move after 3 years",
+      "intent": "3yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I don't want to risk facing charges if I change deal after 3 years",
+      "intent": "3yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I don't want to risk facing charges if I move after 3 years",
+      "intent": "3yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I don't want to risk paying a penalty if I change deal after 3 years",
+      "intent": "3yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I don't want to risk paying a penalty if I move after 3 years",
+      "intent": "3yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid penalties by getting out of the deal after 3 years",
+      "intent": "3yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I want to be out of the early repayment charge period after 3 years",
+      "intent": "3yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "My circumstances may have changed in 3 years so I want to avoid being charged if I change deal",
+      "intent": "3yrAvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I'll move house in 3 years",
+      "intent": "3yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'll move house in three years",
+      "intent": "3yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I may have to move after 3 years",
+      "intent": "3yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I may have to move after 3 years so I want to keep my options open",
+      "intent": "3yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I may have to move after three years",
+      "intent": "3yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'm going to move in about 3 years",
+      "intent": "3yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I might be moving after 3 years",
+      "intent": "3yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I might move after 3 years",
+      "intent": "3yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I might move after three years",
+      "intent": "3yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I might relocated in 3 years",
+      "intent": "3yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'm probably going to move house in about 3 years",
+      "intent": "3yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I plan to move in 3 years",
+      "intent": "3yrPotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I may look to change my product after 3 years",
+      "intent": "3yrReview",
+      "entities": []
+    },
+    {
+      "text": "I might look to change provider after 3 years",
+      "intent": "3yrReview",
+      "entities": []
+    },
+    {
+      "text": "I might want to change my deal after 3 years",
+      "intent": "3yrReview",
+      "entities": []
+    },
+    {
+      "text": "I might want to change my deal after three years",
+      "intent": "3yrReview",
+      "entities": []
+    },
+    {
+      "text": "I might want to change my product after 3 years",
+      "intent": "3yrReview",
+      "entities": []
+    },
+    {
+      "text": "I might want to change my product after three years",
+      "intent": "3yrReview",
+      "entities": []
+    },
+    {
+      "text": "I might want to review my deal after 3 years",
+      "intent": "3yrReview",
+      "entities": []
+    },
+    {
+      "text": "I might want to review my deal after three years",
+      "intent": "3yrReview",
+      "entities": []
+    },
+    {
+      "text": "I might want to review my product after 3 years",
+      "intent": "3yrReview",
+      "entities": []
+    },
+    {
+      "text": "I might want to review my product after three years",
+      "intent": "3yrReview",
+      "entities": []
+    },
+    {
+      "text": "I'm planning to review my mortgage in 3 years",
+      "intent": "3yrReview",
+      "entities": []
+    },
+    {
+      "text": "I'm planning to review my mortgage in three years",
+      "intent": "3yrReview",
+      "entities": []
+    },
+    {
+      "text": "I want the option to change my product after 3 years",
+      "intent": "3yrReview",
+      "entities": []
+    },
+    {
+      "text": "I will do a product transfer in 3 years",
+      "intent": "3yrReview",
+      "entities": []
+    },
+    {
+      "text": "I will do a product transfer in three years",
+      "intent": "3yrReview",
+      "entities": []
+    },
+    {
+      "text": "I will remortgage after 3 years",
+      "intent": "3yrReview",
+      "entities": []
+    },
+    {
+      "text": "I will remortgage after three years",
+      "intent": "3yrReview",
+      "entities": []
+    },
+    {
+      "text": "new product after 3 years",
+      "intent": "3yrReview",
+      "entities": []
+    },
+    {
+      "text": "new product after three years",
+      "intent": "3yrReview",
+      "entities": []
+    },
+    {
+      "text": "remortgage after 3 years",
+      "intent": "3yrReview",
+      "entities": []
+    },
+    {
+      "text": "remortgage after three years",
+      "intent": "3yrReview",
+      "entities": []
+    },
+    {
+      "text": "Avoiding early repayment charges",
+      "intent": "AvoidERC",
+      "entities": []
+    },
+    {
+      "text": "Don't want to risk being charged if my situation changes",
+      "intent": "AvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be penalised if I have to change deal",
+      "intent": "AvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I don't want to face charges",
+      "intent": "AvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid being penalised if my circumstances change",
+      "intent": "AvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid being penalised if my circumstances change so I want to keep my options open",
+      "intent": "AvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid early repayment charges",
+      "intent": "AvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid penalties",
+      "intent": "AvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid penalties so I want to keep my options open",
+      "intent": "AvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I want to be able to pay the mortgage off quickly without getting early repayment charges",
+      "intent": "AvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I want to keep my options open and avoid early repayment charges",
+      "intent": "AvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I want to minimise the risk of facing charges",
+      "intent": "AvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I want to reduce my risk of paying early repayment charges",
+      "intent": "AvoidERC",
+      "entities": []
+    },
+    {
+      "text": "I want to stay flexible and avoid charges",
+      "intent": "AvoidERC",
+      "entities": []
+    },
+    {
+      "text": "Adding it on is what i want",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "Adding it on to the mortgage and not having to pay upfront would be best",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "add it on",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "add it onto my mortgage",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "Add it on top of the mortgage",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "add it on top of the total borrowing",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "Add it on to the mortgage",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "Add it to the amount I'm borrowing",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "add it to the money I'm borrowing",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "add it to the rest of my mortgage",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "add it to the total borrowing",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "add it to the total mortgage amount",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "add on",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "Add the fee on please",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "Add to the mortgage",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "I prefer if I add the fee to the mortgage",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "I prefer its added on the mortgage total",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "I prefer to add it to the mortgage",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "It suits me best to add it on to the mortgage",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "It would be best to add on",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "I want to addon the fee",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "I want to add the fee on",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "I want to add the fee on to the mortgage",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "I want to add the fee to the mortgage",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "I want to pay the fee on top of the mortgage",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "I will add the fee on",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "I will put the fee on top of the mortgage",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "I wish to add on the fee",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "I would add it on",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "I would add the fee on",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "I would like to add the fee on",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "Paying the fee on top of the mortgage",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "stick it in with the mortgage",
+      "intent": "feeAdd",
+      "entities": []
+    },
+    {
+      "text": "Definately paying it upfront",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "Definately paying it up front",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I choose to pay the fee upfront",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I choose to pay the fee up front",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I'll pay the fee upfront",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I'll pay the fee up front",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I'll pay upfront",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I'll pay up front",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I prefer upfront",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I prefer up front",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I shall pay the fee upfront",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I shall pay the fee up front",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I shall pay upfront",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I shall pay up front",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I want to pay the fee upfront",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I want to pay the fee up front",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I will pay the fee straightaway",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I will pay the fee straight away",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I will pay upfront",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I will pay up front",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I wish to pay upfront",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I wish to pay up front",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I would like to pay the fee upfront",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I would like to pay the fee up front",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I would prefer to pay the fee upfront",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "I would prefer to pay the fee up front",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "Paying it up front is my choice",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "Paying it upfront is my choice",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "Pay it upfront",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "Pay it up front",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "Pay it up front I prefer",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "Pay it upfront I prefer",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "Pay the fee upfront",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "Pay the fee up front",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "Pay the fee up front is what I want",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "Pay the fee upfront is what I want",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "Preferably upfront",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "Preferably up front",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "We'll pay the fee upfront",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "We'll pay the fee up front",
+      "intent": "feeUpfront",
+      "entities": []
+    },
+    {
+      "text": "Fixed rate",
+      "intent": "fixedRate",
+      "entities": []
+    },
+    {
+      "text": "Give me a fixed rate",
+      "intent": "fixedRate",
+      "entities": []
+    },
+    {
+      "text": "Give me a stable and fixed rate on my mortgage",
+      "intent": "fixedRate",
+      "entities": []
+    },
+    {
+      "text": "Give me fixed",
+      "intent": "fixedRate",
+      "entities": []
+    },
+    {
+      "text": "I choose a fixed rate",
+      "intent": "fixedRate",
+      "entities": []
+    },
+    {
+      "text": "I choose a rate that is fixed",
+      "intent": "fixedRate",
+      "entities": []
+    },
+    {
+      "text": "I prefer my mortgage rate to be fixed",
+      "intent": "fixedRate",
+      "entities": []
+    },
+    {
+      "text": "I prefer to have a fixed rate",
+      "intent": "fixedRate",
+      "entities": []
+    },
+    {
+      "text": "I prefer to pay a fixed rate price",
+      "intent": "fixedRate",
+      "entities": []
+    },
+    {
+      "text": "I want a fixed rate",
+      "intent": "fixedRate",
+      "entities": []
+    },
+    {
+      "text": "I want a mortgage with a fixed rate",
+      "intent": "fixedRate",
+      "entities": []
+    },
+    {
+      "text": "I want a rate that is fixed",
+      "intent": "fixedRate",
+      "entities": []
+    },
+    {
+      "text": "I want the mortgage to be at a fixed rate",
+      "intent": "fixedRate",
+      "entities": []
+    },
+    {
+      "text": "I want the rate to be fixed",
+      "intent": "fixedRate",
+      "entities": []
+    },
+    {
+      "text": "I wish to have a fixed rate",
+      "intent": "fixedRate",
+      "entities": []
+    },
+    {
+      "text": "I would like a fixed rate",
+      "intent": "fixedRate",
+      "entities": []
+    },
+    {
+      "text": "I would prefer a fixed rate for sure",
+      "intent": "fixedRate",
+      "entities": []
+    },
+    {
+      "text": "I would prefer that the rate is fixed",
+      "intent": "fixedRate",
+      "entities": []
+    },
+    {
+      "text": "My mortgage rate needs to be fixed",
+      "intent": "fixedRate",
+      "entities": []
+    },
+    {
+      "text": "Rate that is fixed",
+      "intent": "fixedRate",
+      "entities": []
+    },
+    {
+      "text": "I'd like the flexibility to repay the whole mortgage in a shorter period of time without Early Repayment Charges",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I'd like to keep my options open",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be stuck with a deal for too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be stuck with a particular deal for too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be tied down by a long term deal",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don\ufffd\ufffd\ufffdt want to be tied down for too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be tied in for too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be tied in to a deal for too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be tied into a deal for too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be tied in to a deal for too long so I want to keep my options open",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be tied in too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be tied into the mortgage rate for too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't want to commit for too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't want to commit myself to a particular deal for too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I want some stability but don't want to be tied in for too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I want to avoid being tied in too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I want to keep my options open",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I want to stay flexible",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "not stuck in a deal too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "not tied in too long",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "stay flexible",
+      "intent": "NoTieDown",
+      "entities": []
+    },
+    {
+      "text": "I don't plan on staying long term",
+      "intent": "PotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I don't plan to stay too long",
+      "intent": "PotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'm not planning to stay for that long in the apartment",
+      "intent": "PotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'm not planning to stay for that long in the flat",
+      "intent": "PotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'm not planning to stay for that long in the house",
+      "intent": "PotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'm not planning to stay for very long in the property",
+      "intent": "PotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'm not staying for very long before moving",
+      "intent": "PotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'm not sure how long I'll be staying",
+      "intent": "PotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'm not sure how long I'll be staying so I want to keep my options open",
+      "intent": "PotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I won't live there for very long",
+      "intent": "PotentialMove",
+      "entities": []
+    },
+    {
+      "text": "not staying long",
+      "intent": "PotentialMove",
+      "entities": []
+    },
+    {
+      "text": "I'll probably want to change my deal after this time",
+      "intent": "Review",
+      "entities": []
+    },
+    {
+      "text": "I'll probably want to change my mortgage after this time",
+      "intent": "Review",
+      "entities": []
+    },
+    {
+      "text": "I'll probably want to change my product after this time",
+      "intent": "Review",
+      "entities": []
+    },
+    {
+      "text": "I'll review my deal at that time",
+      "intent": "Review",
+      "entities": []
+    },
+    {
+      "text": "I'll review my mortgage at that time",
+      "intent": "Review",
+      "entities": []
+    },
+    {
+      "text": "I'll review my product at that time",
+      "intent": "Review",
+      "entities": []
+    },
+    {
+      "text": "I might want to change my deal",
+      "intent": "Review",
+      "entities": []
+    },
+    {
+      "text": "I might want to change my mortgage",
+      "intent": "Review",
+      "entities": []
+    },
+    {
+      "text": "I might want to change my product",
+      "intent": "Review",
+      "entities": []
+    },
+    {
+      "text": "I'm planning to review my deal at that time",
+      "intent": "Review",
+      "entities": []
+    },
+    {
+      "text": "I'm planning to review my mortgage at that time",
+      "intent": "Review",
+      "entities": []
+    },
+    {
+      "text": "I'm planning to review my product at that time",
+      "intent": "Review",
+      "entities": []
+    },
+    {
+      "text": "I want the option to review my deal then",
+      "intent": "Review",
+      "entities": []
+    },
+    {
+      "text": "I want the option to review my mortgage then",
+      "intent": "Review",
+      "entities": []
+    },
+    {
+      "text": "I want the option to review my product then",
+      "intent": "Review",
+      "entities": []
+    },
+    {
+      "text": "I want to be able to get a new deal at that time",
+      "intent": "Review",
+      "entities": []
+    },
+    {
+      "text": "I want to be able to get a new mortgage at that time",
+      "intent": "Review",
+      "entities": []
+    },
+    {
+      "text": "I want to be able to get a new product at that time",
+      "intent": "Review",
+      "entities": []
+    },
+    {
+      "text": "I'd like a shorter introductory term so I have the flexibility to review the deal",
+      "intent": "ReviewSoon",
+      "entities": []
+    },
+    {
+      "text": "I'd like a shorter introductory term so I have the flexibility to review the mortgage",
+      "intent": "ReviewSoon",
+      "entities": []
+    },
+    {
+      "text": "I'd like a shorter introductory term so I have the flexibility to review the product",
+      "intent": "ReviewSoon",
+      "entities": []
+    },
+    {
+      "text": "I may look to change my mortgage soon",
+      "intent": "ReviewSoon",
+      "entities": []
+    },
+    {
+      "text": "I might want to review my deal soon",
+      "intent": "ReviewSoon",
+      "entities": []
+    },
+    {
+      "text": "I might want to review my mortgage soon",
+      "intent": "ReviewSoon",
+      "entities": []
+    },
+    {
+      "text": "I might want to review my product soon",
+      "intent": "ReviewSoon",
+      "entities": []
+    },
+    {
+      "text": "I want a shorter term so I can review the deal soon",
+      "intent": "ReviewSoon",
+      "entities": []
+    },
+    {
+      "text": "I want a shorter term so I can review the mortgage soon",
+      "intent": "ReviewSoon",
+      "entities": []
+    },
+    {
+      "text": "I want a shorter term so I can review the product soon",
+      "intent": "ReviewSoon",
+      "entities": []
+    },
+    {
+      "text": "I want a short initial term so I can review the mortgage soon",
+      "intent": "ReviewSoon",
+      "entities": []
+    },
+    {
+      "text": "I want to review my mortgage soon",
+      "intent": "ReviewSoon",
+      "entities": []
+    },
+    {
+      "text": "I don't want to be stuck with a deal for too long but I want to fix it for some time",
+      "intent": "ShortTermStability",
+      "entities": []
+    },
+    {
+      "text": "I'll be able to spend more in the long run but I need some stability for the first couple of years",
+      "intent": "ShortTermStability",
+      "entities": []
+    },
+    {
+      "text": "I'm not concerned about interest rates rising in the long-term but I want some security initially",
+      "intent": "ShortTermStability",
+      "entities": []
+    },
+    {
+      "text": "I want a good rate but I also want some stability",
+      "intent": "ShortTermStability",
+      "entities": []
+    },
+    {
+      "text": "I want initial security but I'm not worried about the long term",
+      "intent": "ShortTermStability",
+      "entities": []
+    },
+    {
+      "text": "I want some certainty in the early stages but I'm not bothered about rates in the longer term",
+      "intent": "ShortTermStability",
+      "entities": []
+    },
+    {
+      "text": "I want some certainty in the early stages but I'm not fussed about rates in the longer term",
+      "intent": "ShortTermStability",
+      "entities": []
+    },
+    {
+      "text": "I want some certainty in the early stages but I'm not that concerned about rates in the longer term",
+      "intent": "ShortTermStability",
+      "entities": []
+    },
+    {
+      "text": "I want some certainty in the early stages but I'm not worried about rates in the longer term",
+      "intent": "ShortTermStability",
+      "entities": []
+    },
+    {
+      "text": "I want some security in the beginning while I get settled",
+      "intent": "ShortTermStability",
+      "entities": []
+    },
+    {
+      "text": "I want some stability but I don't want to commit to a deal for too long",
+      "intent": "ShortTermStability",
+      "entities": []
+    },
+    {
+      "text": "I want some stability but I don't want to commit to a product for too long",
+      "intent": "ShortTermStability",
+      "entities": []
+    },
+    {
+      "text": "I want *",
+      "intent": "term",
+      "entities": []
+    },
+    {
+      "text": "I want a * term",
+      "intent": "term",
+      "entities": []
+    },
+    {
+      "text": "I want a * year term",
+      "intent": "term",
+      "entities": []
+    },
+    {
+      "text": "I want * year",
+      "intent": "term",
+      "entities": []
+    },
+    {
+      "text": "I want * years",
+      "intent": "term",
+      "entities": []
+    },
+    {
+      "text": "I would like a 20 year term",
+      "intent": "term",
+      "entities": []
+    },
+    {
+      "text": "I would like a * term",
+      "intent": "term",
+      "entities": []
+    },
+    {
+      "text": "I would like a * years term",
+      "intent": "term",
+      "entities": []
+    },
+    {
+      "text": "* years, that is my choice",
+      "intent": "term",
+      "entities": []
+    },
+    {
+      "text": "A variable rate would suit me best",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "Can I have a tracker mortgage",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "Give me a tracker mortgage",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "Give me a variable rate",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "Give me variable",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "I choose a rate that is variable",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "I choose a variable rate",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "I prefer my mortgage rate to be variable",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "I prefer to have a variable rate",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "I require a variable rate",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "I want a mortgage where the rate varies",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "I want a mortgage with a variable rate",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "I want a rate that is variable",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "I want a tracker mortgage",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "I want a variable rate",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "I want the mortgage to be at a variable rate",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "I want the rate to be variable",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "I want to choose a variable rate product",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "I wish to have a variable rate",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "I would like a variable rate",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "I would prefer a variable rate for sure",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "I would prefer that the rate is variable",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "My mortgage rate needs to be variable",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "Rate that is variable",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "tracker",
+      "intent": "variableRate",
+      "entities": []
+    },
+    {
+      "text": "variable rate",
+      "intent": "variableRate",
+      "entities": []
+    }
+  ]
+}

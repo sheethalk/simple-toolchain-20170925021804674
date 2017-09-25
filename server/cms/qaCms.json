@@ -1,0 +1,18 @@
+{
+    "intents": [{
+        "intent": "joinMyBB",
+        "responses": ["You can join now on BestBuy.com by <a href=\"https://www-ssl.bestbuy.com/identity/global/createAccount\" data-lid=\"MyBBY_CreateAccount_144898\">creating an account</a>. You can also join My Best Buy in any Best Buy store."]
+    }, {
+        "intent": "myBBCost",
+        "responses": ["My Best Buy is free to join and there's no ongoing membership fee."]
+    }, {
+        "intent": "missReward",
+        "responses": ["You may have set your certificate preference to a level higher than your current point balance. Regardless of your selected preference, if you have at least 250 points in your account, you may <a href=\"https://www-ssl.bestbuy.com/profile/c/rwz/overview\" data-lid=\"MyBBY_IssueCertificate_144898\">issue a reward certificate.</a>"]
+    }, {
+        "intent": "printReward",
+        "responses": ["No. As an alternative to printing, you can redeem reward certificates on your mobile phone — no printing required — just download the free Best Buy Mobile app for iPhone or Android."]
+    }, {
+        "intent": "wherePoints",
+        "responses": ["You can verify your purchases on the <a href=\"https://www-ssl.bestbuy.com/profile/c/rwz/transactions\" data-lid=\"MyBBY_Points_144898\">Point History page.</a> Points post to your account approximately 15 days after your Best Buy store transaction or your BestBuy.com shipping date."]
+    }]
+}
